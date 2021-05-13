@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Place from "./Place";
+import placesJson from "../public/places.json";
 
 const CATEGORIES = ["Boba", "Restaurant", "Sushi"];
 
@@ -12,22 +13,29 @@ const SearchBox = () => {
   }, []);
 
   function getPlaces() {
-    setPlaces([
-      {
-        id: 1,
-        name: "The Alley",
-        category: "Boba",
-        address: "5 St Joseph St",
-        city: "Toronto",
-        province: "ON",
-        postal: "M4Y 0B6",
-      },
-    ]);
+    // try {
+    //   const res = await fetch("./places.json", {
+    //     headers: {
+    //       "Content-Type": "application/json",
+    //       Accept: "application/json",
+    //     },
+    //   });
+    //   console.log(res);
+    //   const json = await res.json();
+    //   setPlaces(json);
+    // } catch (error) {
+    //   console.error("Error: ", error);
+    // }
+    setPlaces(placesJson);
   }
 
   return (
     <div className="search-box">
-      <form>
+      <form
+        onSubmit={(e) => {
+          e.preventDefault();
+        }}
+      >
         <label htmlFor="category">
           Category
           <select

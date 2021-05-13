@@ -11,14 +11,14 @@ const Place = ({ id, name, address, city, province, postal }) => {
         {city}, {province}
       </h3>
       <h3>{postal}</h3>
-      {/* <iframe
-        width="400"
-        height="400"
+      <iframe
+        width="350"
+        height="350"
         style={{ border: 0 }}
         loading="lazy"
         allowFullScreen
-        src={`https://www.google.com/maps/embed/v1/place?key=${MAPS_API}&q=${name}+${address}`}
-      ></iframe> */}
+        src={`https://www.google.com/maps/embed/v1/place?key=${MAPS_API}&q=${name}+${address}+${city}+${province}+${postal}`}
+      ></iframe>
     </div>
   );
 };

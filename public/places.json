@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "The Alley",
+        "category": "Boba",
+        "address": "5 St Joseph St",
+        "city": "Toronto",
+        "province": "ON",
+        "postal": "M4Y 0B6"
+    },
+    {
+        "id": 2,
+        "name": "Toro Toro",
+        "category": "Sushi",
+        "address": "40-3175 Rutherford Rd",
+        "city": "Concord",
+        "province": "ON",
+        "postal": "L4K 5Y6"
+    }
+]
