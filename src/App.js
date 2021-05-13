@@ -1,11 +1,12 @@
 import { StrictMode } from "react";
 import ReactDOM from "react-dom";
+import SearchBox from "./SearchBox";
 
 const App = () => {
   return (
-    <div>
+    <div className="app">
       <h1>Food and Places</h1>
-      <p>Hello world!</p>
+      <SearchBox />
     </div>
   );
 };
