@@ -1,0 +1,33 @@
+{
+  "name": "foods-react",
+  "version": "1.0.0",
+  "description": "List of various food places in Toronto and surrounding areas.",
+  "homepage": "",
+  "main": "src/index.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "dev": "parcel src/index.html"
+  },
+  "author": "Jacky Ly",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@babel/core": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "parcel": "^2.0.0-beta.2",
+    "prettier": "^2.3.0"
+  },
+  "browserslist": [
+    "last 6 versions"
+  ],
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
