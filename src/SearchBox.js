@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Place from "./Place";
 
 const CATEGORIES = ["Boba", "Restaurant", "Sushi"];
+const MAPS_API = process.env.REACT_APP_MAPS_API;
 
 const SearchBox = () => {
   const [categoryValue, setCategoryValue] = useState("");
@@ -46,15 +47,24 @@ const SearchBox = () => {
         <button>Search</button>
       </form>
       {places.map((place) => (
-        <Place
-          key={place.id}
-          id={place.id}
-          name={place.name}
-          address={place.address}
-          city={place.city}
-          province={place.province}
-          postal={place.postal}
-        />
+        <div key={place.id}>
+          <Place
+            id={place.id}
+            name={place.name}
+            address={place.address}
+            city={place.city}
+            province={place.province}
+            postal={place.postal}
+          />
+          <iframe
+            width="400"
+            height="400"
+            style={{ border: 0 }}
+            loading="lazy"
+            allowFullScreen
+            src={`https://www.google.com/maps/embed/v1/place?key=${MAPS_API}&q=${place.name}+${place.address}`}
+          ></iframe>
+        </div>
       ))}
     </div>
   );
