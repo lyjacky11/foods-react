@@ -4,16 +4,17 @@ const Place = ({ id, name, category, address, city, province, postal }) => {
   return (
     <div id="place">
       <h1>
-        {id}. {name} | {category}
+        {id}. {name}
       </h1>
-      <h2>{address}</h2>
+      <h2>Category: {category}</h2>
+      <h3>{address}</h3>
       <h3>
         {city}, {province}
       </h3>
       <h3>{postal}</h3>
       <iframe
-        width="350"
-        height="350"
+        width="400"
+        height="400"
         style={{ border: 0 }}
         loading="lazy"
         allowFullScreen

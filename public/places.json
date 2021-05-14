@@ -16,5 +16,14 @@
         "city": "Concord",
         "province": "ON",
         "postal": "L4K 5Y6"
+    },
+    {
+        "id": 3,
+        "name": "Chicken in the Kitchen",
+        "category": "Restaurant",
+        "address": "5600 Yonge St",
+        "city": "North York",
+        "province": "ON",
+        "postal": "M2N 5S2"
     }
 ]

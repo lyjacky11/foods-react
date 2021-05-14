@@ -2,11 +2,19 @@ import { useState, useEffect } from "react";
 import Place from "./Place";
 import placesJson from "../public/places.json";
 
-const CATEGORIES = ["Boba", "Restaurant", "Sushi"];
-
 const SearchBox = () => {
   const [categoryValue, setCategoryValue] = useState("");
+  const [locationValue, setLocationValue] = useState("");
+  const [nameValue, setNameValue] = useState("");
   const [places, setPlaces] = useState([]);
+
+  const categories = [];
+  places.map((place) => {
+    var found = categories.find((x) => x === place.category);
+    if (!found) {
+      categories.push(place.category);
+    }
+  });
 
   useEffect(() => {
     getPlaces();
@@ -23,6 +31,26 @@ const SearchBox = () => {
           e.preventDefault();
         }}
       >
+        <label htmlFor="name">
+          Name
+          <input
+            id="name"
+            value={nameValue}
+            onChange={(e) => setNameValue(e.target.value)}
+            onBlur={(e) => setNameValue(e.target.value)}
+          />
+        </label>
+        <br />
+        <label htmlFor="location">
+          Location
+          <input
+            id="location"
+            value={locationValue}
+            onChange={(e) => setLocationValue(e.target.value)}
+            onBlur={(e) => setLocationValue(e.target.value)}
+          />
+        </label>
+        <br />
         <label htmlFor="category">
           Category
           <select
@@ -32,13 +60,14 @@ const SearchBox = () => {
             onBlur={(e) => setCategoryValue(e.target.value)}
           >
             <option></option>
-            {CATEGORIES.map((category) => (
+            {categories.map((category) => (
               <option key={category} value={category}>
                 {category}
               </option>
             ))}
           </select>
         </label>
+        <br />
         <button>Search</button>
       </form>
       {places.map((place) => (
