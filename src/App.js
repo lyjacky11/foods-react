@@ -16,7 +16,7 @@ const App = () => {
   categories.sort();
 
   function getPlaces() {
-    setPlaces(placesJson);
+    setPlaces(placesJson.places);
   }
 
   useEffect(() => {

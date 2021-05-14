@@ -1,11 +1,23 @@
 const MAPS_API = process.env.REACT_APP_MAPS_API;
 
-const Place = ({ id, name, category, address, city, province, postal }) => {
+const Place = ({
+  id,
+  name,
+  category,
+  sub_category,
+  address,
+  city,
+  province,
+  postal,
+}) => {
   return (
     <div className="place-container">
       <div className="place-details">
         <h2>{name}</h2>
-        <h3>Category: {category}</h3>
+        <h3>
+          Category: {category}
+          {sub_category != "null" ? ` (${sub_category})` : ""}
+        </h3>
         <h4>{address}</h4>
         <h4>
           {city}, {province} {postal}
