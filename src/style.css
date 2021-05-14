@@ -8,7 +8,38 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+label > input,
+select {
+  margin-left: 15px;
+  width: 200px;
+}
+
+.header {
+  text-align: center;
+}
+
 .search-box {
-  width: 1000px;
+  width: 50%;
   margin: 0 auto;
+}
+
+.results {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.place-container {
+  border: 1px solid black;
+  border-radius: 7%;
+  padding: 8px;
+  margin: 5px;
+}
+
+.embed-map > iframe {
+  width: 400px;
+  height: 300px;
+  border: 0;
 }

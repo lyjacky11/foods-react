@@ -13,7 +13,7 @@ const SearchBox = ({ categories }) => {
         }}
       >
         <label htmlFor="name">
-          Name
+          Name:
           <input
             id="name"
             value={nameValue}
@@ -23,7 +23,7 @@ const SearchBox = ({ categories }) => {
         </label>
         <br />
         <label htmlFor="location">
-          Location
+          Location:
           <input
             id="location"
             value={locationValue}
@@ -33,7 +33,7 @@ const SearchBox = ({ categories }) => {
         </label>
         <br />
         <label htmlFor="category">
-          Category
+          Category:
           <select
             id="category"
             value={categoryValue}

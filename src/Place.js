@@ -2,21 +2,15 @@ const MAPS_API = process.env.REACT_APP_MAPS_API;
 
 const Place = ({ id, name, category, address, city, province, postal }) => {
   return (
-    <div id="place">
-      <h1>
-        {id}. {name}
-      </h1>
-      <h2>Category: {category}</h2>
-      <h3>{address}</h3>
-      <h3>
-        {city}, {province}
-      </h3>
-      <h3>{postal}</h3>
-      {/* <div id="embed-map">
+    <div className="place-container">
+      <h2>{name}</h2>
+      <h3>Category: {category}</h3>
+      <h4>{address}</h4>
+      <h4>
+        {city}, {province} {postal}
+      </h4>
+      {/* <div className="embed-map">
         <iframe
-          width="400"
-          height="400"
-          style={{ border: 0 }}
           loading="lazy"
           allowFullScreen
           src={`https://www.google.com/maps/embed/v1/place?key=${MAPS_API}&q=${name}+${address}+${city}+${province}+${postal}`}

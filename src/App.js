@@ -25,7 +25,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <h1>Food Places</h1>
+      <h1 className="header">Food Places</h1>
       <SearchBox categories={categories} />
       <Results places={places} />
     </div>
