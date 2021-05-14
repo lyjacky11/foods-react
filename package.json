@@ -7,7 +7,9 @@
   "scripts": {
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
-    "dev": "parcel src/index.html"
+    "dev": "parcel src/index.html",
+    "dev:nocache": "parcel src/index.html --no-cache",
+    "build": "parcel build --public-url ./dist/ src/index.html"
   },
   "author": "Jacky Ly",
   "license": "Apache-2.0",
