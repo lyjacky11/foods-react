@@ -38,6 +38,12 @@ select {
   margin: 5px;
 }
 
+.place-logo > img {
+  width: 125px;
+  height: 125px;
+}
+
+.place-logo:hover,
 .place-details:hover {
   cursor: pointer;
 }

@@ -1,3 +1,4 @@
+import logos from "./logos/*.png";
 const MAPS_API = process.env.REACT_APP_MAPS_API;
 
 const Place = ({
@@ -9,9 +10,13 @@ const Place = ({
   city,
   province,
   postal,
+  logo,
 }) => {
   return (
     <div className="place-container">
+      <div className="place-logo">
+        <img src={`${logos[logo]}`} alt={name}></img>
+      </div>
       <div className="place-details">
         <h2>{name}</h2>
         <h3>

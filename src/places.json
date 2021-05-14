@@ -8,7 +8,8 @@
             "address": "103-1520 Steeles Ave W",
             "city": "Concord",
             "province": "ON",
-            "postal": "L4K 3B9"
+            "postal": "L4K 3B9",
+            "logo": "168-sushi"
         },
         {
             "id": "2",
@@ -18,7 +19,8 @@
             "address": "2366 Dundas St W",
             "city": "Mississauga",
             "province": "ON",
-            "postal": "L5K 1R7"
+            "postal": "L5K 1R7",
+            "logo": "168-sushi"
         },
         {
             "id": "3",
@@ -28,7 +30,8 @@
             "address": "93A Ossington Ave",
             "city": "Toronto",
             "province": "ON",
-            "postal": "M6J 2Z2"
+            "postal": "M6J 2Z2",
+            "logo": "bang-bang"
         },
         {
             "id": "4",
@@ -38,7 +41,8 @@
             "address": "2365 Yonge St",
             "city": "Toronto",
             "province": "ON",
-            "postal": "M4P 3J6"
+            "postal": "M4P 3J6",
+            "logo": "banh-mi-boys"
         },
         {
             "id": "5",
@@ -48,7 +52,8 @@
             "address": "392 Queen St W",
             "city": "Toronto",
             "province": "ON",
-            "postal": "M5V 2A9"
+            "postal": "M5V 2A9",
+            "logo": "banh-mi-boys"
         },
         {
             "id": "6",
@@ -58,7 +63,8 @@
             "address": "145 Queens Quay W",
             "city": "Toronto",
             "province": "ON",
-            "postal": "M5J 2H4"
+            "postal": "M5J 2H4",
+            "logo": "beavertails"
         },
         {
             "id": "7",
@@ -68,7 +74,8 @@
             "address": "288 Bremner Blvd",
             "city": "Toronto",
             "province": "ON",
-            "postal": "M6K 3C3"
+            "postal": "M6K 3C3",
+            "logo": "beavertails"
         },
         {
             "id": "8",
@@ -78,7 +85,8 @@
             "address": "368 Broadview Ave",
             "city": "Toronto",
             "province": "ON",
-            "postal": "M4M 2G9"
+            "postal": "M4M 2G9",
+            "logo": "boba-boy"
         },
         {
             "id": "9",
@@ -88,7 +96,8 @@
             "address": "H7-2900 Markham Rd",
             "city": "Scarborough",
             "province": "ON",
-            "postal": "M1X 1E6"
+            "postal": "M1X 1E6",
+            "logo": "boba-boy"
         },
         {
             "id": "10",
@@ -98,7 +107,8 @@
             "address": "4841 Yonge St",
             "city": "Toronto",
             "province": "ON",
-            "postal": "M2N 5X2"
+            "postal": "M2N 5X2",
+            "logo": "blaze-pizza"
         },
         {
             "id": "11",
@@ -108,7 +118,8 @@
             "address": "124-10 Dundas St E",
             "city": "Toronto",
             "province": "ON",
-            "postal": "M5B 2G9"
+            "postal": "M5B 2G9",
+            "logo": "blaze-pizza"
         },
         {
             "id": "12",
@@ -118,7 +129,8 @@
             "address": "101A-150 West Dr",
             "city": "Brampton",
             "province": "ON",
-            "postal": "L6T 4P9"
+            "postal": "L6T 4P9",
+            "logo": "168-sushi"
         },
         {
             "id": "13",
@@ -128,7 +140,8 @@
             "address": "5494 Yonge St",
             "city": "North York",
             "province": "ON",
-            "postal": "M2N 7L3"
+            "postal": "M2N 7L3",
+            "logo": "168-sushi"
         },
         {
             "id": "14",
@@ -138,7 +151,8 @@
             "address": "132 Dundas St W",
             "city": "Toronto",
             "province": "ON",
-            "postal": "M5G 1C3"
+            "postal": "M5G 1C3",
+            "logo": "168-sushi"
         },
         {
             "id": "15",
@@ -148,7 +162,8 @@
             "address": "5600 Yonge St",
             "city": "North York",
             "province": "ON",
-            "postal": "M2N 5S2"
+            "postal": "M2N 5S2",
+            "logo": "168-sushi"
         },
         {
             "id": "16",
@@ -158,7 +173,8 @@
             "address": "771 Dundas St W",
             "city": "Toronto",
             "province": "ON",
-            "postal": "M6J 1T9"
+            "postal": "M6J 1T9",
+            "logo": "168-sushi"
         },
         {
             "id": "17",
@@ -168,7 +184,8 @@
             "address": "12-4205 Keele St",
             "city": "North York",
             "province": "ON",
-            "postal": "M3J 3T8"
+            "postal": "M3J 3T8",
+            "logo": "168-sushi"
         },
         {
             "id": "18",
@@ -178,7 +195,8 @@
             "address": "F5-25 Peel Centre Dr",
             "city": "Brampton",
             "province": "ON",
-            "postal": "L6T 3R5"
+            "postal": "L6T 3R5",
+            "logo": "168-sushi"
         },
         {
             "id": "19",
@@ -188,7 +206,8 @@
             "address": "6-3180 Lake Shore Blvd W",
             "city": "Etobicoke",
             "province": "ON",
-            "postal": "M8V 1L7"
+            "postal": "M8V 1L7",
+            "logo": "168-sushi"
         },
         {
             "id": "20",
@@ -198,7 +217,8 @@
             "address": "20 Carlton St",
             "city": "Toronto",
             "province": "ON",
-            "postal": "M5B 2H5"
+            "postal": "M5B 2H5",
+            "logo": "168-sushi"
         },
         {
             "id": "21",
@@ -208,7 +228,8 @@
             "address": "658 Bloor St W",
             "city": "Toronto",
             "province": "ON",
-            "postal": "M6G 1K9"
+            "postal": "M6G 1K9",
+            "logo": "168-sushi"
         },
         {
             "id": "22",
@@ -218,7 +239,8 @@
             "address": "6034 Yonge St",
             "city": "North York",
             "province": "ON",
-            "postal": "M2M 3W5"
+            "postal": "M2M 3W5",
+            "logo": "168-sushi"
         },
         {
             "id": "23",
@@ -228,7 +250,8 @@
             "address": "3250 Dufferin St",
             "city": "North York",
             "province": "ON",
-            "postal": "M6A 2T3"
+            "postal": "M6A 2T3",
+            "logo": "168-sushi"
         },
         {
             "id": "24",
@@ -238,7 +261,8 @@
             "address": "2962 Bloor St W",
             "city": "Etobicoke",
             "province": "ON",
-            "postal": "M8X 1B7"
+            "postal": "M8X 1B7",
+            "logo": "168-sushi"
         },
         {
             "id": "25",
@@ -248,7 +272,8 @@
             "address": "7600 Weston Rd",
             "city": "Woodbridge",
             "province": "ON",
-            "postal": "L4L 8B7"
+            "postal": "L4L 8B7",
+            "logo": "168-sushi"
         },
         {
             "id": "26",
@@ -258,7 +283,8 @@
             "address": "345 Bloor St E",
             "city": "Toronto",
             "province": "ON",
-            "postal": "M4W 3J6"
+            "postal": "M4W 3J6",
+            "logo": "168-sushi"
         },
         {
             "id": "27",
@@ -268,7 +294,8 @@
             "address": "5449 Yonge St",
             "city": "North York",
             "province": "ON",
-            "postal": "M2N 5S1"
+            "postal": "M2N 5S1",
+            "logo": "168-sushi"
         },
         {
             "id": "28",
@@ -278,7 +305,8 @@
             "address": "3636 Steeles Ave E",
             "city": "Markham",
             "province": "ON",
-            "postal": "L3R 1K9"
+            "postal": "L3R 1K9",
+            "logo": "168-sushi"
         },
         {
             "id": "29",
@@ -288,7 +316,8 @@
             "address": "104-60 Town Centre Court",
             "city": "Scarborough",
             "province": "ON",
-            "postal": "M1P 0B1"
+            "postal": "M1P 0B1",
+            "logo": "168-sushi"
         },
         {
             "id": "30",
@@ -298,7 +327,8 @@
             "address": "157 Dundas St W",
             "city": "Toronto",
             "province": "ON",
-            "postal": "M5E 1B4"
+            "postal": "M5E 1B4",
+            "logo": "168-sushi"
         },
         {
             "id": "31",
@@ -308,7 +338,8 @@
             "address": "335 Bloor St W",
             "city": "Toronto",
             "province": "ON",
-            "postal": "M5S 1W7"
+            "postal": "M5S 1W7",
+            "logo": "168-sushi"
         },
         {
             "id": "32",
@@ -318,7 +349,8 @@
             "address": "2375 Yonge St",
             "city": "Toronto",
             "province": "ON",
-            "postal": "M4P 2C8"
+            "postal": "M4P 2C8",
+            "logo": "168-sushi"
         },
         {
             "id": "33",
@@ -328,7 +360,8 @@
             "address": "3B-5 Glen Cameron Rd",
             "city": "Thornhill",
             "province": "ON",
-            "postal": "L3T 5W2"
+            "postal": "L3T 5W2",
+            "logo": "168-sushi"
         },
         {
             "id": "34",
@@ -338,7 +371,8 @@
             "address": "5525 Yonge St",
             "city": "North York",
             "province": "ON",
-            "postal": "M2N 7L3"
+            "postal": "M2N 7L3",
+            "logo": "168-sushi"
         },
         {
             "id": "35",
@@ -348,7 +382,8 @@
             "address": "F1-4300 Steeles Ave E",
             "city": "Markham",
             "province": "ON",
-            "postal": "L3R 0N8"
+            "postal": "L3R 0N8",
+            "logo": "168-sushi"
         },
         {
             "id": "36",
@@ -358,7 +393,8 @@
             "address": "30-3175 Rutherford Rd",
             "city": "Concord",
             "province": "ON",
-            "postal": "L4K 5Y6"
+            "postal": "L4K 5Y6",
+            "logo": "168-sushi"
         },
         {
             "id": "37",
@@ -368,7 +404,8 @@
             "address": "66 Gerrard St E",
             "city": "Toronto",
             "province": "ON",
-            "postal": "M5B 2M2"
+            "postal": "M5B 2M2",
+            "logo": "168-sushi"
         },
         {
             "id": "38",
@@ -378,7 +415,8 @@
             "address": "394 Queen St W",
             "city": "Toronto",
             "province": "ON",
-            "postal": "M5V 2A6"
+            "postal": "M5V 2A6",
+            "logo": "168-sushi"
         },
         {
             "id": "39",
@@ -388,7 +426,8 @@
             "address": "100 Steeles Ave W",
             "city": "Thornhill",
             "province": "ON",
-            "postal": "L4J 7Y1"
+            "postal": "L4J 7Y1",
+            "logo": "168-sushi"
         },
         {
             "id": "40",
@@ -398,7 +437,8 @@
             "address": "754 Yonge St",
             "city": "Toronto",
             "province": "ON",
-            "postal": "M5B 1S1"
+            "postal": "M5B 1S1",
+            "logo": "168-sushi"
         },
         {
             "id": "41",
@@ -408,7 +448,8 @@
             "address": "3280 Midland Ave",
             "city": "Scarborough",
             "province": "ON",
-            "postal": "M1V 4W9"
+            "postal": "M1V 4W9",
+            "logo": "168-sushi"
         },
         {
             "id": "42",
@@ -418,7 +459,8 @@
             "address": "164 McCaul St",
             "city": "Toronto",
             "province": "ON",
-            "postal": "M5T 1W3"
+            "postal": "M5T 1W3",
+            "logo": "168-sushi"
         },
         {
             "id": "43",
@@ -428,7 +470,8 @@
             "address": "4411 Kingston Rd",
             "city": "Scarborough",
             "province": "ON",
-            "postal": "M1E 2N3"
+            "postal": "M1E 2N3",
+            "logo": "168-sushi"
         },
         {
             "id": "44",
@@ -438,7 +481,8 @@
             "address": "264 Spadina Ave",
             "city": "Toronto",
             "province": "ON",
-            "postal": "M5T 2E4"
+            "postal": "M5T 2E4",
+            "logo": "168-sushi"
         },
         {
             "id": "45",
@@ -448,7 +492,8 @@
             "address": "112-50 Peel Centre Dr",
             "city": "Brampton",
             "province": "ON",
-            "postal": "L6T 3R5"
+            "postal": "L6T 3R5",
+            "logo": "168-sushi"
         },
         {
             "id": "46",
@@ -458,7 +503,8 @@
             "address": "5317 Yonge St",
             "city": "North York",
             "province": "ON",
-            "postal": "M2N 5R4"
+            "postal": "M2N 5R4",
+            "logo": "168-sushi"
         },
         {
             "id": "47",
@@ -468,7 +514,8 @@
             "address": "7359 Yonge St",
             "city": "Thornhill",
             "province": "ON",
-            "postal": "L3T 2B3"
+            "postal": "L3T 2B3",
+            "logo": "168-sushi"
         },
         {
             "id": "48",
@@ -478,7 +525,8 @@
             "address": "1993 Finch Ave W",
             "city": "North York",
             "province": "ON",
-            "postal": "M3N 2V3"
+            "postal": "M3N 2V3",
+            "logo": "168-sushi"
         },
         {
             "id": "49",
@@ -488,7 +536,8 @@
             "address": "3 Carlton St",
             "city": "Toronto",
             "province": "ON",
-            "postal": "M5B 1L2"
+            "postal": "M5B 1L2",
+            "logo": "168-sushi"
         },
         {
             "id": "50",
@@ -498,7 +547,8 @@
             "address": "2291 Yonge St",
             "city": "Toronto",
             "province": "ON",
-            "postal": "M4P 2C6"
+            "postal": "M4P 2C6",
+            "logo": "168-sushi"
         },
         {
             "id": "51",
@@ -508,7 +558,8 @@
             "address": "362 King St E",
             "city": "Toronto",
             "province": "ON",
-            "postal": "M5A 1K9"
+            "postal": "M5A 1K9",
+            "logo": "168-sushi"
         },
         {
             "id": "52",
@@ -518,7 +569,8 @@
             "address": "106 John St",
             "city": "Toronto",
             "province": "ON",
-            "postal": "M5H 1X9"
+            "postal": "M5H 1X9",
+            "logo": "168-sushi"
         },
         {
             "id": "53",
@@ -528,7 +580,8 @@
             "address": "25 The West Mall",
             "city": "Etobicoke",
             "province": "ON",
-            "postal": "M9C 1B8"
+            "postal": "M9C 1B8",
+            "logo": "168-sushi"
         },
         {
             "id": "54",
@@ -538,7 +591,8 @@
             "address": "621 Dixon Rd",
             "city": "Etobicoke",
             "province": "ON",
-            "postal": "M9W 1H7"
+            "postal": "M9W 1H7",
+            "logo": "168-sushi"
         },
         {
             "id": "55",
@@ -548,7 +602,8 @@
             "address": "5431 Yonge St",
             "city": "North York",
             "province": "ON",
-            "postal": "M2N 5R6"
+            "postal": "M2N 5R6",
+            "logo": "168-sushi"
         },
         {
             "id": "56",
@@ -558,7 +613,8 @@
             "address": "R3-120 Adelaide St W",
             "city": "Toronto",
             "province": "ON",
-            "postal": "M5H 1T1"
+            "postal": "M5H 1T1",
+            "logo": "168-sushi"
         },
         {
             "id": "57",
@@ -568,7 +624,8 @@
             "address": "5 St Joseph St",
             "city": "Toronto",
             "province": "ON",
-            "postal": "M4Y 0B6"
+            "postal": "M4Y 0B6",
+            "logo": "168-sushi"
         },
         {
             "id": "58",
@@ -578,7 +635,8 @@
             "address": "3401 Dufferin St",
             "city": "North York",
             "province": "ON",
-            "postal": "M6A 2T9"
+            "postal": "M6A 2T9",
+            "logo": "168-sushi"
         },
         {
             "id": "59",
@@ -588,7 +646,8 @@
             "address": "40-3175 Rutherford Rd",
             "city": "Concord",
             "province": "ON",
-            "postal": "L4K 5Y6"
+            "postal": "L4K 5Y6",
+            "logo": "168-sushi"
         },
         {
             "id": "60",
@@ -598,7 +657,8 @@
             "address": "D3-8570 Woodbine Ave",
             "city": "Markham",
             "province": "ON",
-            "postal": "L3R 4X8"
+            "postal": "L3R 4X8",
+            "logo": "168-sushi"
         },
         {
             "id": "61",
@@ -608,7 +668,8 @@
             "address": "183 Dundas St W",
             "city": "Toronto",
             "province": "ON",
-            "postal": "M5G 1C7"
+            "postal": "M5G 1C7",
+            "logo": "168-sushi"
         },
         {
             "id": "62",
@@ -618,7 +679,8 @@
             "address": "106-3623 Highway 7",
             "city": "Markham",
             "province": "ON",
-            "postal": "L3R 8X6"
+            "postal": "L3R 8X6",
+            "logo": "168-sushi"
         }
     ]
 }

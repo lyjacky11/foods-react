@@ -67,7 +67,7 @@ const SearchBox = ({ places }) => {
             onChange={(e) => setCategoryValue(e.target.value)}
             onBlur={(e) => setCategoryValue(e.target.value)}
           >
-            <option></option>
+            <option>None</option>
             {categories.map((category) => (
               <option key={category} value={category}>
                 {category}
@@ -83,8 +83,8 @@ const SearchBox = ({ places }) => {
             value={subCategoryValue}
             onChange={(e) => setSubCategoryValue(e.target.value)}
             onBlur={(e) => setSubCategoryValue(e.target.value)}
+            disabled={!subCategories.length}
           >
-            <option></option>
             {subCategories.map((subCategory) => (
               <option key={subCategory} value={subCategory}>
                 {subCategory}
