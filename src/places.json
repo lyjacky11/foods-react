@@ -1,6 +1,15 @@
 [
     {
         "id": 1,
+        "name": "Chicken in the Kitchen",
+        "category": "Restaurant",
+        "address": "5600 Yonge St",
+        "city": "North York",
+        "province": "ON",
+        "postal": "M2N 5S2"
+    },
+    {
+        "id": 2,
         "name": "The Alley",
         "category": "Boba",
         "address": "5 St Joseph St",
@@ -9,21 +18,12 @@
         "postal": "M4Y 0B6"
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Toro Toro",
         "category": "Sushi",
         "address": "40-3175 Rutherford Rd",
         "city": "Concord",
         "province": "ON",
         "postal": "L4K 5Y6"
-    },
-    {
-        "id": 3,
-        "name": "Chicken in the Kitchen",
-        "category": "Restaurant",
-        "address": "5600 Yonge St",
-        "city": "North York",
-        "province": "ON",
-        "postal": "M2N 5S2"
     }
 ]

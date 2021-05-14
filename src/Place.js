@@ -12,14 +12,14 @@ const Place = ({ id, name, category, address, city, province, postal }) => {
         {city}, {province}
       </h3>
       <h3>{postal}</h3>
-      <iframe
+      {/* <iframe
         width="400"
         height="400"
         style={{ border: 0 }}
         loading="lazy"
         allowFullScreen
         src={`https://www.google.com/maps/embed/v1/place?key=${MAPS_API}&q=${name}+${address}+${city}+${province}+${postal}`}
-      ></iframe>
+      ></iframe> */}
     </div>
   );
 };
