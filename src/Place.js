@@ -1,10 +1,10 @@
 const MAPS_API = process.env.REACT_APP_MAPS_API;
 
-const Place = ({ id, name, address, city, province, postal }) => {
+const Place = ({ id, name, category, address, city, province, postal }) => {
   return (
     <div id="place">
       <h1>
-        {id}. {name}
+        {id}. {name} | {category}
       </h1>
       <h2>{address}</h2>
       <h3>

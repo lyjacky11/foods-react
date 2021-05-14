@@ -13,19 +13,6 @@ const SearchBox = () => {
   }, []);
 
   function getPlaces() {
-    // try {
-    //   const res = await fetch("./places.json", {
-    //     headers: {
-    //       "Content-Type": "application/json",
-    //       Accept: "application/json",
-    //     },
-    //   });
-    //   console.log(res);
-    //   const json = await res.json();
-    //   setPlaces(json);
-    // } catch (error) {
-    //   console.error("Error: ", error);
-    // }
     setPlaces(placesJson);
   }
 
@@ -44,6 +31,7 @@ const SearchBox = () => {
             onChange={(e) => setCategoryValue(e.target.value)}
             onBlur={(e) => setCategoryValue(e.target.value)}
           >
+            <option></option>
             {CATEGORIES.map((category) => (
               <option key={category} value={category}>
                 {category}
@@ -58,6 +46,7 @@ const SearchBox = () => {
           <Place
             id={place.id}
             name={place.name}
+            category={place.category}
             address={place.address}
             city={place.city}
             province={place.province}
