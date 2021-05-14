@@ -6,14 +6,6 @@ import placesJson from "./places.json";
 
 const App = () => {
   const [places, setPlaces] = useState([]);
-  const categories = [];
-  places.map((place) => {
-    var found = categories.find((x) => x === place.category);
-    if (!found) {
-      categories.push(place.category);
-    }
-  });
-  categories.sort();
 
   function getPlaces() {
     setPlaces(placesJson.places);
@@ -26,7 +18,7 @@ const App = () => {
   return (
     <div className="app">
       <h1 className="header">Food Places</h1>
-      <SearchBox categories={categories} />
+      <SearchBox places={places} />
       <Results places={places} />
     </div>
   );

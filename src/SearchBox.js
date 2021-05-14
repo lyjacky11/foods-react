@@ -1,9 +1,36 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
-const SearchBox = ({ categories }) => {
-  const [categoryValue, setCategoryValue] = useState("");
-  const [locationValue, setLocationValue] = useState("");
+const SearchBox = ({ places }) => {
   const [nameValue, setNameValue] = useState("");
+  const [locationValue, setLocationValue] = useState("");
+  const [categoryValue, setCategoryValue] = useState("");
+  const [categories, setCategories] = useState([]);
+  const [subCategoryValue, setSubCategoryValue] = useState("");
+  const [subCategories, setSubCategories] = useState([]);
+
+  useEffect(() => {
+    var data = [];
+    places.map((place) => {
+      var found = data.find((x) => x === place.category);
+      if (!found) {
+        data.push(place.category);
+      }
+    });
+    data.sort();
+    setCategories(data);
+  }, [places]);
+
+  useEffect(() => {
+    var data = [];
+    places.map((place) => {
+      var found = data.find((x) => x === place.sub_category);
+      if (!found && place.category === categoryValue) {
+        data.push(place.sub_category);
+      }
+    });
+    data.sort();
+    setSubCategories(data);
+  }, [categoryValue]);
 
   return (
     <div className="search-box">
@@ -49,7 +76,23 @@ const SearchBox = ({ categories }) => {
           </select>
         </label>
         <br />
-        <button>Search</button>
+        <label htmlFor="sub_category">
+          Sub Category:
+          <select
+            id="sub_category"
+            value={subCategoryValue}
+            onChange={(e) => setSubCategoryValue(e.target.value)}
+            onBlur={(e) => setSubCategoryValue(e.target.value)}
+          >
+            <option></option>
+            {subCategories.map((subCategory) => (
+              <option key={subCategory} value={subCategory}>
+                {subCategory}
+              </option>
+            ))}
+          </select>
+        </label>
+        <button>Reset</button>
       </form>
     </div>
   );
