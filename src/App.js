@@ -13,6 +13,7 @@ const App = () => {
       categories.push(place.category);
     }
   });
+  categories.sort();
 
   function getPlaces() {
     setPlaces(placesJson);

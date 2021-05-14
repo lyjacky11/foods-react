@@ -3,6 +3,7 @@
         "id": 1,
         "name": "Chicken in the Kitchen",
         "category": "Restaurant",
+        "sub-category": "Korean",
         "address": "5600 Yonge St",
         "city": "North York",
         "province": "ON",
@@ -10,17 +11,59 @@
     },
     {
         "id": 2,
-        "name": "The Alley",
-        "category": "Boba",
-        "address": "5 St Joseph St",
+        "name": "Cuppa Tea Carlton",
+        "category": "Tea",
+        "sub-category": "",
+        "address": "20 Carlton St",
         "city": "Toronto",
         "province": "ON",
-        "postal": "M4Y 0B6"
+        "postal": "M5B 2H5"
     },
     {
         "id": 3,
+        "name": "Katsuya - Vaughan",
+        "category": "Restaurant",
+        "sub-category": "Japanese",
+        "address": "30-3175 Rutherford Rd",
+        "city": "Concord",
+        "province": "ON",
+        "postal": "L4K 5Y6"
+    },
+    {
+        "id": 4,
+        "name": "Kekou",
+        "category": "Ice Cream",
+        "sub-category": "",
+        "address": "394 Queen St W",
+        "city": "Toronto",
+        "province": "ON",
+        "postal": "M5V 2A6"
+    },
+    {
+        "id": 5,
+        "name": "Machi Machi",
+        "category": "Bubble Tea",
+        "sub-category": "",
+        "address": "394 Queen St W",
+        "city": "Toronto",
+        "province": "ON",
+        "postal": "M5V 2A6"
+    },
+    {
+        "id": 6,
+        "name": "The Alley",
+        "category": "Bubble Tea",
+        "sub-category": "",
+        "address": "5317 Yonge St",
+        "city": "North York",
+        "province": "ON",
+        "postal": "M2N 5R4"
+    },
+    {
+        "id": 7,
         "name": "Toro Toro",
         "category": "Sushi",
+        "sub-category": "Japanese",
         "address": "40-3175 Rutherford Rd",
         "city": "Concord",
         "province": "ON",
