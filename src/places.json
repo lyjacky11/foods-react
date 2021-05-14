@@ -462,9 +462,9 @@
         },
         {
             "id": "47",
-            "name": "Rolltation",
-            "category": "Fast Food",
-            "sub_category": "Sushi Burrito",
+            "name": "Rolltation Sushi Burrito",
+            "category": "Restaurant",
+            "sub_category": "Fast Food",
             "address": "3 Carlton St",
             "city": "Toronto",
             "province": "ON",
@@ -472,9 +472,9 @@
         },
         {
             "id": "48",
-            "name": "Rolltation",
-            "category": "Fast Food",
-            "sub_category": "Sushi Burrito",
+            "name": "Rolltation Sushi Burrito",
+            "category": "Restaurant",
+            "sub_category": "Fast Food",
             "address": "2291 Yonge St",
             "city": "Toronto",
             "province": "ON",
@@ -512,6 +512,16 @@
         },
         {
             "id": "52",
+            "name": "Sushi-Ya Japan",
+            "category": "Sushi",
+            "sub_category": "Japanese",
+            "address": "621 Dixon Rd",
+            "city": "Etobicoke",
+            "province": "ON",
+            "postal": "M9W 1H7"
+        },
+        {
+            "id": "53",
             "name": "The Alley",
             "category": "Shop",
             "sub_category": "Bubble Tea",
@@ -521,7 +531,7 @@
             "postal": "M2N 5R6"
         },
         {
-            "id": "53",
+            "id": "54",
             "name": "The Alley",
             "category": "Shop",
             "sub_category": "Bubble Tea",
@@ -531,7 +541,7 @@
             "postal": "M5H 1T1"
         },
         {
-            "id": "54",
+            "id": "55",
             "name": "The Alley",
             "category": "Shop",
             "sub_category": "Bubble Tea",
@@ -541,7 +551,7 @@
             "postal": "M4Y 0B6"
         },
         {
-            "id": "55",
+            "id": "56",
             "name": "The Cheesecake Factory",
             "category": "Restaurant",
             "sub_category": "Cheesecake",
@@ -551,7 +561,7 @@
             "postal": "M6A 2T9"
         },
         {
-            "id": "56",
+            "id": "57",
             "name": "Toro Toro",
             "category": "Sushi",
             "sub_category": "Japanese",
@@ -561,7 +571,7 @@
             "postal": "L4K 5Y6"
         },
         {
-            "id": "57",
+            "id": "58",
             "name": "Yang Teashop",
             "category": "Shop",
             "sub_category": "Bubble Tea",
@@ -571,7 +581,7 @@
             "postal": "L3R 4X8"
         },
         {
-            "id": "58",
+            "id": "59",
             "name": "Yang Teashop",
             "category": "Shop",
             "sub_category": "Bubble Tea",
@@ -579,6 +589,16 @@
             "city": "Toronto",
             "province": "ON",
             "postal": "M5G 1C7"
+        },
+        {
+            "id": "60",
+            "name": "Yang Teashop",
+            "category": "Shop",
+            "sub_category": "Bubble Tea",
+            "address": "106-3623 Highway 7",
+            "city": "Markham",
+            "province": "ON",
+            "postal": "L3R 8X6"
         }
     ]
 }
