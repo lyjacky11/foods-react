@@ -38,6 +38,10 @@ select {
   margin: 5px;
 }
 
+.place-details:hover {
+  cursor: pointer;
+}
+
 .embed-map > iframe {
   width: 400px;
   height: 300px;
