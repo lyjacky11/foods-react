@@ -2,6 +2,146 @@
     "places": [
         {
             "id": "1",
+            "name": "168 Sushi Buffet",
+            "category": "Sushi",
+            "sub_category": "Japanese",
+            "address": "103-1520 Steeles Ave W",
+            "city": "Concord",
+            "province": "ON",
+            "postal": "L4K 3B9"
+        },
+        {
+            "id": "2",
+            "name": "168 Sushi Buffet",
+            "category": "Sushi",
+            "sub_category": "Japanese",
+            "address": "2366 Dundas St W",
+            "city": "Mississauga",
+            "province": "ON",
+            "postal": "L5K 1R7"
+        },
+        {
+            "id": "3",
+            "name": "Bang Bang Ice Cream & Bakery",
+            "category": "Shop",
+            "sub_category": "Ice Cream",
+            "address": "93A Ossington Ave",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M6J 2Z2"
+        },
+        {
+            "id": "4",
+            "name": "Banh Mi Boys",
+            "category": "Sandwich",
+            "sub_category": "Vietnamese",
+            "address": "2365 Yonge St",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M4P 3J6"
+        },
+        {
+            "id": "5",
+            "name": "Banh Mi Boys",
+            "category": "Sandwich",
+            "sub_category": "Vietnamese",
+            "address": "392 Queen St W",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M5V 2A9"
+        },
+        {
+            "id": "6",
+            "name": "BeaverTails",
+            "category": "Restaurant",
+            "sub_category": "Fast Food",
+            "address": "145 Queens Quay W",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M5J 2H4"
+        },
+        {
+            "id": "7",
+            "name": "BeaverTails",
+            "category": "Restaurant",
+            "sub_category": "Fast Food",
+            "address": "288 Bremner Blvd",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M6K 3C3"
+        },
+        {
+            "id": "8",
+            "name": "Boba Boy",
+            "category": "Shop",
+            "sub_category": "Bubble Tea",
+            "address": "368 Broadview Ave",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M4M 2G9"
+        },
+        {
+            "id": "9",
+            "name": "Boba Boy",
+            "category": "Shop",
+            "sub_category": "Bubble Tea",
+            "address": "H7-2900 Markham Rd",
+            "city": "Scarborough",
+            "province": "ON",
+            "postal": "M1X 1E6"
+        },
+        {
+            "id": "10",
+            "name": "Blaze Pizza",
+            "category": "Restaurant",
+            "sub_category": "Pizza",
+            "address": "4841 Yonge St",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M2N 5X2"
+        },
+        {
+            "id": "11",
+            "name": "Blaze Pizza",
+            "category": "Restaurant",
+            "sub_category": "Pizza",
+            "address": "124-10 Dundas St E",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M5B 2G9"
+        },
+        {
+            "id": "12",
+            "name": "Chatime",
+            "category": "Shop",
+            "sub_category": "Bubble Tea",
+            "address": "101A-150 West Dr",
+            "city": "Brampton",
+            "province": "ON",
+            "postal": "L6T 4P9"
+        },
+        {
+            "id": "13",
+            "name": "Chatime",
+            "category": "Shop",
+            "sub_category": "Bubble Tea",
+            "address": "5494 Yonge St",
+            "city": "North York",
+            "province": "ON",
+            "postal": "M2N 7L3"
+        },
+        {
+            "id": "14",
+            "name": "Chatime",
+            "category": "Shop",
+            "sub_category": "Bubble Tea",
+            "address": "132 Dundas St W",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M5G 1C3"
+        },
+        {
+            "id": "15",
             "name": "Chicken in the Kitchen",
             "category": "Restaurant",
             "sub_category": "Korean",
@@ -11,18 +151,198 @@
             "postal": "M2N 5S2"
         },
         {
-            "id": "2",
-            "name": "Cuppa Tea Carlton",
-            "category": "Bubble Tea",
-            "sub_category": "null",
+            "id": "16",
+            "name": "Chop Chop",
+            "category": "Restaurant",
+            "sub_category": "Chinese",
+            "address": "771 Dundas St W",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M6J 1T9"
+        },
+        {
+            "id": "17",
+            "name": "CoCo Fresh Tea",
+            "category": "Shop",
+            "sub_category": "Bubble Tea",
+            "address": "12-4205 Keele St",
+            "city": "North York",
+            "province": "ON",
+            "postal": "M3J 3T8"
+        },
+        {
+            "id": "18",
+            "name": "CoCo Fresh Tea",
+            "category": "Shop",
+            "sub_category": "Bubble Tea",
+            "address": "F5-25 Peel Centre Dr",
+            "city": "Brampton",
+            "province": "ON",
+            "postal": "L6T 3R5"
+        },
+        {
+            "id": "19",
+            "name": "CoCo Fresh Tea",
+            "category": "Shop",
+            "sub_category": "Bubble Tea",
+            "address": "6-3180 Lake Shore Blvd W",
+            "city": "Etobicoke",
+            "province": "ON",
+            "postal": "M8V 1L7"
+        },
+        {
+            "id": "20",
+            "name": "Cuppa Tea",
+            "category": "Shop",
+            "sub_category": "Bubble Tea",
             "address": "20 Carlton St",
             "city": "Toronto",
             "province": "ON",
             "postal": "M5B 2H5"
         },
         {
-            "id": "3",
-            "name": "Katsuya - Vaughan",
+            "id": "21",
+            "name": "Daldongnae Korean BBQ",
+            "category": "Restaurant",
+            "sub_category": "Korean",
+            "address": "658 Bloor St W",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M6G 1K9"
+        },
+        {
+            "id": "22",
+            "name": "Daldongnae Korean BBQ",
+            "category": "Restaurant",
+            "sub_category": "Korean",
+            "address": "6034 Yonge St",
+            "city": "North York",
+            "province": "ON",
+            "postal": "M2M 3W5"
+        },
+        {
+            "id": "23",
+            "name": "Demetres",
+            "category": "Restaurant",
+            "sub_category": "Dessert",
+            "address": "3250 Dufferin St",
+            "city": "North York",
+            "province": "ON",
+            "postal": "M6A 2T3"
+        },
+        {
+            "id": "24",
+            "name": "Demetres",
+            "category": "Restaurant",
+            "sub_category": "Dessert",
+            "address": "2962 Bloor St W",
+            "city": "Etobicoke",
+            "province": "ON",
+            "postal": "M8X 1B7"
+        },
+        {
+            "id": "25",
+            "name": "Eggspectation",
+            "category": "Restaurant",
+            "sub_category": "Breakfast",
+            "address": "7600 Weston Rd",
+            "city": "Woodbridge",
+            "province": "ON",
+            "postal": "L4L 8B7"
+        },
+        {
+            "id": "26",
+            "name": "Eggspectation",
+            "category": "Restaurant",
+            "sub_category": "Breakfast",
+            "address": "345 Bloor St E",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M4W 3J6"
+        },
+        {
+            "id": "27",
+            "name": "Gong Cha",
+            "category": "Shop",
+            "sub_category": "Bubble Tea",
+            "address": "5449 Yonge St",
+            "city": "North York",
+            "province": "ON",
+            "postal": "M2N 5S1"
+        },
+        {
+            "id": "28",
+            "name": "Gong Cha",
+            "category": "Shop",
+            "sub_category": "Bubble Tea",
+            "address": "3636 Steeles Ave E",
+            "city": "Markham",
+            "province": "ON",
+            "postal": "L3R 1K9"
+        },
+        {
+            "id": "29",
+            "name": "Gong Cha",
+            "category": "Shop",
+            "sub_category": "Bubble Tea",
+            "address": "104-60 Town Centre Court",
+            "city": "Scarborough",
+            "province": "ON",
+            "postal": "M1P 0B1"
+        },
+        {
+            "id": "30",
+            "name": "Gyubee Japanese Grill",
+            "category": "Restaurant",
+            "sub_category": "Japanese",
+            "address": "157 Dundas St W",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M5E 1B4"
+        },
+        {
+            "id": "31",
+            "name": "Gyubee Japanese Grill",
+            "category": "Restaurant",
+            "sub_category": "Japanese",
+            "address": "335 Bloor St W",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M5S 1W7"
+        },
+        {
+            "id": "32",
+            "name": "HK Sweets",
+            "category": "Restaurant",
+            "sub_category": "Dessert",
+            "address": "2375 Yonge St",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M4P 2C8"
+        },
+        {
+            "id": "33",
+            "name": "Hot Star",
+            "category": "Restaurant",
+            "sub_category": "Fried Chicken",
+            "address": "5525 Yonge St",
+            "city": "North York",
+            "province": "ON",
+            "postal": "M2N 7L3"
+        },
+        {
+            "id": "34",
+            "name": "Hot Star",
+            "category": "Restaurant",
+            "sub_category": "Fried Chicken",
+            "address": "F1-4300 Steeles Ave E",
+            "city": "Markham",
+            "province": "ON",
+            "postal": "L3R 0N8"
+        },
+        {
+            "id": "35",
+            "name": "Katsuya",
             "category": "Restaurant",
             "sub_category": "Japanese",
             "address": "30-3175 Rutherford Rd",
@@ -31,37 +351,207 @@
             "postal": "L4K 5Y6"
         },
         {
-            "id": "4",
+            "id": "36",
+            "name": "Katsuya",
+            "category": "Restaurant",
+            "sub_category": "Japanese",
+            "address": "66 Gerrard St E",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M5B 2M2"
+        },
+        {
+            "id": "37",
             "name": "Kekou",
-            "category": "Ice Cream",
-            "sub_category": "null",
+            "category": "Shop",
+            "sub_category": "Ice Cream",
             "address": "394 Queen St W",
             "city": "Toronto",
             "province": "ON",
             "postal": "M5V 2A6"
         },
         {
-            "id": "5",
+            "id": "38",
+            "name": "Kobi Korean BBQ",
+            "category": "Restaurant",
+            "sub_category": "Korean",
+            "address": "100 Steeles Ave W",
+            "city": "Thornhill",
+            "province": "ON",
+            "postal": "L4J 7Y1"
+        },
+        {
+            "id": "39",
+            "name": "Korean Grill House",
+            "category": "Restaurant",
+            "sub_category": "Korean",
+            "address": "754 Yonge St",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M5B 1S1"
+        },
+        {
+            "id": "40",
+            "name": "Korean Grill House",
+            "category": "Restaurant",
+            "sub_category": "Korean",
+            "address": "3280 Midland Ave",
+            "city": "Scarborough",
+            "province": "ON",
+            "postal": "M1V 4W9"
+        },
+        {
+            "id": "41",
+            "name": "Krispy Kreme",
+            "category": "Shop",
+            "sub_category": "Donut",
+            "address": "164 McCaul St",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M5T 1W3"
+        },
+        {
+            "id": "42",
+            "name": "Krispy Kreme",
+            "category": "Shop",
+            "sub_category": "Donut",
+            "address": "4411 Kingston Rd",
+            "city": "Scarborough",
+            "province": "ON",
+            "postal": "M1E 2N3"
+        },
+        {
+            "id": "43",
+            "name": "Kung Fu Tea",
+            "category": "Shop",
+            "sub_category": "Bubble Tea",
+            "address": "264 Spadina Ave",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M5T 2E4"
+        },
+        {
+            "id": "44",
+            "name": "Kung Fu Tea",
+            "category": "Shop",
+            "sub_category": "Bubble Tea",
+            "address": "112-50 Peel Centre Dr",
+            "city": "Brampton",
+            "province": "ON",
+            "postal": "L6T 3R5"
+        },
+        {
+            "id": "45",
             "name": "Machi Machi",
-            "category": "Bubble Tea",
-            "sub_category": "null",
+            "category": "Shop",
+            "sub_category": "Bubble Tea",
             "address": "5317 Yonge St",
             "city": "North York",
             "province": "ON",
             "postal": "M2N 5R4"
         },
         {
-            "id": "6",
+            "id": "46",
+            "name": "Noon Moment",
+            "category": "Shop",
+            "sub_category": "Bubble Tea",
+            "address": "1993 Finch Ave W",
+            "city": "North York",
+            "province": "ON",
+            "postal": "M3N 2V3"
+        },
+        {
+            "id": "47",
+            "name": "Rolltation",
+            "category": "Fast Food",
+            "sub_category": "Sushi Burrito",
+            "address": "3 Carlton St",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M5B 1L2"
+        },
+        {
+            "id": "48",
+            "name": "Rolltation",
+            "category": "Fast Food",
+            "sub_category": "Sushi Burrito",
+            "address": "2291 Yonge St",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M4P 2C6"
+        },
+        {
+            "id": "49",
+            "name": "Roselle Desserts",
+            "category": "Shop",
+            "sub_category": "Dessert",
+            "address": "362 King St E",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M5A 1K9"
+        },
+        {
+            "id": "50",
+            "name": "Sweet Jesus",
+            "category": "Shop",
+            "sub_category": "Ice Cream",
+            "address": "106 John St",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M5H 1X9"
+        },
+        {
+            "id": "51",
+            "name": "Sweet Jesus",
+            "category": "Shop",
+            "sub_category": "Ice Cream",
+            "address": "25 The West Mall",
+            "city": "Etobicoke",
+            "province": "ON",
+            "postal": "M9C 1B8"
+        },
+        {
+            "id": "52",
             "name": "The Alley",
-            "category": "Bubble Tea",
-            "sub_category": "null",
+            "category": "Shop",
+            "sub_category": "Bubble Tea",
+            "address": "5431 Yonge St",
+            "city": "North York",
+            "province": "ON",
+            "postal": "M2N 5R6"
+        },
+        {
+            "id": "53",
+            "name": "The Alley",
+            "category": "Shop",
+            "sub_category": "Bubble Tea",
+            "address": "R3-120 Adelaide St W",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M5H 1T1"
+        },
+        {
+            "id": "54",
+            "name": "The Alley",
+            "category": "Shop",
+            "sub_category": "Bubble Tea",
             "address": "5 St Joseph St",
             "city": "Toronto",
             "province": "ON",
             "postal": "M4Y 0B6"
         },
         {
-            "id": "7",
+            "id": "55",
+            "name": "The Cheesecake Factory",
+            "category": "Restaurant",
+            "sub_category": "Cheesecake",
+            "address": "3401 Dufferin St",
+            "city": "North York",
+            "province": "ON",
+            "postal": "M6A 2T9"
+        },
+        {
+            "id": "56",
             "name": "Toro Toro",
             "category": "Sushi",
             "sub_category": "Japanese",
@@ -69,6 +559,26 @@
             "city": "Concord",
             "province": "ON",
             "postal": "L4K 5Y6"
+        },
+        {
+            "id": "57",
+            "name": "Yang Teashop",
+            "category": "Shop",
+            "sub_category": "Bubble Tea",
+            "address": "D3-8570 Woodbine Ave",
+            "city": "Markham",
+            "province": "ON",
+            "postal": "L3R 4X8"
+        },
+        {
+            "id": "58",
+            "name": "Yang Teashop",
+            "category": "Shop",
+            "sub_category": "Bubble Tea",
+            "address": "183 Dundas St W",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M5G 1C7"
         }
     ]
 }
