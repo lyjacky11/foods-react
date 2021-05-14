@@ -1,12 +1,12 @@
 import Place from "./Place";
 
-const Results = ({ places }) => {
+const Results = ({ filteredPlaces }) => {
   return (
     <div className="results">
-      {!places.length ? (
+      {!filteredPlaces.length ? (
         <h2>No places found!</h2>
       ) : (
-        places.map((place) => (
+        filteredPlaces.map((place) => (
           <Place
             key={place.id}
             id={place.id}

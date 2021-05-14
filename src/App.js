@@ -6,9 +6,11 @@ import placesJson from "./places.json";
 
 const App = () => {
   const [places, setPlaces] = useState([]);
+  const [filteredPlaces, setFilteredPlaces] = useState([]);
 
   function getPlaces() {
     setPlaces(placesJson.places);
+    setFilteredPlaces(placesJson.places);
   }
 
   useEffect(() => {
@@ -19,8 +21,8 @@ const App = () => {
     <div className="app">
       <h1 className="header">Food Places</h1>
       <h3 className="subtitle">By: Jacky Ly</h3>
-      <SearchBox places={places} />
-      <Results places={places} />
+      <SearchBox places={places} setFilteredPlaces={setFilteredPlaces} />
+      <Results filteredPlaces={filteredPlaces} />
     </div>
   );
 };

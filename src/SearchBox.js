@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const SearchBox = ({ places }) => {
+const SearchBox = ({ places, setFilteredPlaces }) => {
   const [nameValue, setNameValue] = useState("");
   const [locationValue, setLocationValue] = useState("");
   const [categoryValue, setCategoryValue] = useState("");
@@ -8,6 +8,7 @@ const SearchBox = ({ places }) => {
   const [subCategoryValue, setSubCategoryValue] = useState("");
   const [subCategories, setSubCategories] = useState([]);
 
+  // Get unique categories
   useEffect(() => {
     var data = [];
     places.map((place) => {
@@ -20,6 +21,7 @@ const SearchBox = ({ places }) => {
     setCategories(data);
   }, [places]);
 
+  // Get unique sub-categories for a selected category
   useEffect(() => {
     var data = [];
     places.map((place) => {
@@ -31,6 +33,56 @@ const SearchBox = ({ places }) => {
     data.sort();
     setSubCategories(data);
   }, [categoryValue]);
+
+  // Fetch places by search parameters
+  useEffect(() => {
+    let data = places;
+    // Name
+    let placesByName = new Set();
+    if (nameValue) {
+      data.map((place) => {
+        if (place.name.toLowerCase().includes(nameValue.toLowerCase())) {
+          placesByName.add(place);
+        }
+      });
+      data = [...placesByName];
+    }
+    // Location
+    let placesByLocation = new Set();
+    if (locationValue) {
+      data.map((place) => {
+        if (
+          place.address.toLowerCase().includes(locationValue.toLowerCase()) ||
+          place.city.toLowerCase().includes(locationValue.toLowerCase()) ||
+          place.province.toLowerCase().includes(locationValue.toLowerCase()) ||
+          place.postal.toLowerCase().includes(locationValue.toLowerCase())
+        ) {
+          placesByLocation.add(place);
+        }
+      });
+      data = [...placesByLocation];
+    }
+    // Category
+    let placesByCategory = new Set();
+    if (categoryValue) {
+      data.map((place) => {
+        if (place.category === categoryValue) {
+          placesByCategory.add(place);
+        }
+      });
+      data = [...placesByCategory];
+    }
+    // Sub Category
+    if (subCategoryValue) {
+      data.map((place) => {
+        if (place.subCategory !== subCategoryValue) {
+          const index = data.indexOf(place);
+          data.slice(index, 1);
+        }
+      });
+    }
+    setFilteredPlaces(data);
+  }, [nameValue, locationValue, categoryValue, subCategoryValue]);
 
   return (
     <div className="search-box">
@@ -45,16 +97,18 @@ const SearchBox = ({ places }) => {
           <input
             id="name"
             value={nameValue}
+            placeholder="Name of Place"
             onChange={(e) => setNameValue(e.target.value)}
             onBlur={(e) => setNameValue(e.target.value)}
           />
         </label>
         <br />
         <label htmlFor="location">
-          Location:
+          Location
           <input
             id="location"
             value={locationValue}
+            placeholder="City, Province, or Postal Code"
             onChange={(e) => setLocationValue(e.target.value)}
             onBlur={(e) => setLocationValue(e.target.value)}
           />
@@ -68,7 +122,7 @@ const SearchBox = ({ places }) => {
             onChange={(e) => setCategoryValue(e.target.value)}
             onBlur={(e) => setCategoryValue(e.target.value)}
           >
-            <option>None</option>
+            <option value="">All</option>
             {categories.map((category) => (
               <option key={category} value={category}>
                 {category}
@@ -86,6 +140,7 @@ const SearchBox = ({ places }) => {
             onBlur={(e) => setSubCategoryValue(e.target.value)}
             disabled={!subCategories.length}
           >
+            <option value=""></option>
             {subCategories.map((subCategory) => (
               <option key={subCategory} value={subCategory}>
                 {subCategory}
