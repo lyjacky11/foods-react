@@ -34,6 +34,7 @@ const SearchBox = ({ places }) => {
 
   return (
     <div className="search-box">
+      <b>Search for a place:</b>
       <form
         onSubmit={(e) => {
           e.preventDefault();
@@ -92,6 +93,7 @@ const SearchBox = ({ places }) => {
             ))}
           </select>
         </label>
+        <br />
         <button>Reset</button>
       </form>
     </div>

@@ -18,6 +18,7 @@ const App = () => {
   return (
     <div className="app">
       <h1 className="header">Food Places</h1>
+      <h3 className="subtitle">By: Jacky Ly</h3>
       <SearchBox places={places} />
       <Results places={places} />
     </div>

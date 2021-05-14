@@ -130,7 +130,7 @@
             "city": "Brampton",
             "province": "ON",
             "postal": "L6T 4P9",
-            "logo": "168-sushi"
+            "logo": "chatime"
         },
         {
             "id": "13",
@@ -141,7 +141,7 @@
             "city": "North York",
             "province": "ON",
             "postal": "M2N 7L3",
-            "logo": "168-sushi"
+            "logo": "chatime"
         },
         {
             "id": "14",
@@ -152,7 +152,7 @@
             "city": "Toronto",
             "province": "ON",
             "postal": "M5G 1C3",
-            "logo": "168-sushi"
+            "logo": "chatime"
         },
         {
             "id": "15",
@@ -163,7 +163,7 @@
             "city": "North York",
             "province": "ON",
             "postal": "M2N 5S2",
-            "logo": "168-sushi"
+            "logo": "chicken-kitchen"
         },
         {
             "id": "16",
@@ -174,7 +174,7 @@
             "city": "Toronto",
             "province": "ON",
             "postal": "M6J 1T9",
-            "logo": "168-sushi"
+            "logo": "chop-chop"
         },
         {
             "id": "17",
@@ -185,7 +185,7 @@
             "city": "North York",
             "province": "ON",
             "postal": "M3J 3T8",
-            "logo": "168-sushi"
+            "logo": "coco"
         },
         {
             "id": "18",
@@ -196,7 +196,7 @@
             "city": "Brampton",
             "province": "ON",
             "postal": "L6T 3R5",
-            "logo": "168-sushi"
+            "logo": "coco"
         },
         {
             "id": "19",
@@ -207,7 +207,7 @@
             "city": "Etobicoke",
             "province": "ON",
             "postal": "M8V 1L7",
-            "logo": "168-sushi"
+            "logo": "coco"
         },
         {
             "id": "20",
@@ -218,29 +218,29 @@
             "city": "Toronto",
             "province": "ON",
             "postal": "M5B 2H5",
-            "logo": "168-sushi"
+            "logo": "cuppa-tea"
         },
         {
             "id": "21",
-            "name": "Daldongnae Korean BBQ",
+            "name": "Daldongnae",
             "category": "Barbecue",
             "sub_category": "Korean",
             "address": "658 Bloor St W",
             "city": "Toronto",
             "province": "ON",
             "postal": "M6G 1K9",
-            "logo": "168-sushi"
+            "logo": "daldongnae"
         },
         {
             "id": "22",
-            "name": "Daldongnae Korean BBQ",
+            "name": "Daldongnae",
             "category": "Barbecue",
             "sub_category": "Korean",
             "address": "6034 Yonge St",
             "city": "North York",
             "province": "ON",
             "postal": "M2M 3W5",
-            "logo": "168-sushi"
+            "logo": "daldongnae"
         },
         {
             "id": "23",
@@ -251,7 +251,7 @@
             "city": "North York",
             "province": "ON",
             "postal": "M6A 2T3",
-            "logo": "168-sushi"
+            "logo": "demetres"
         },
         {
             "id": "24",
@@ -262,7 +262,7 @@
             "city": "Etobicoke",
             "province": "ON",
             "postal": "M8X 1B7",
-            "logo": "168-sushi"
+            "logo": "demetres"
         },
         {
             "id": "25",
@@ -273,7 +273,7 @@
             "city": "Woodbridge",
             "province": "ON",
             "postal": "L4L 8B7",
-            "logo": "168-sushi"
+            "logo": "eggspectation"
         },
         {
             "id": "26",
@@ -284,7 +284,7 @@
             "city": "Toronto",
             "province": "ON",
             "postal": "M4W 3J6",
-            "logo": "168-sushi"
+            "logo": "eggspectation"
         },
         {
             "id": "27",
@@ -295,7 +295,7 @@
             "city": "North York",
             "province": "ON",
             "postal": "M2N 5S1",
-            "logo": "168-sushi"
+            "logo": "gong-cha"
         },
         {
             "id": "28",
@@ -306,7 +306,7 @@
             "city": "Markham",
             "province": "ON",
             "postal": "L3R 1K9",
-            "logo": "168-sushi"
+            "logo": "gong-cha"
         },
         {
             "id": "29",
@@ -317,29 +317,29 @@
             "city": "Scarborough",
             "province": "ON",
             "postal": "M1P 0B1",
-            "logo": "168-sushi"
+            "logo": "gong-cha"
         },
         {
             "id": "30",
-            "name": "Gyubee Japanese Grill",
+            "name": "Gyubee",
             "category": "Barbecue",
             "sub_category": "Japanese",
             "address": "157 Dundas St W",
             "city": "Toronto",
             "province": "ON",
             "postal": "M5E 1B4",
-            "logo": "168-sushi"
+            "logo": "gyubee"
         },
         {
             "id": "31",
-            "name": "Gyubee Japanese Grill",
+            "name": "Gyubee",
             "category": "Barbecue",
             "sub_category": "Japanese",
             "address": "335 Bloor St W",
             "city": "Toronto",
             "province": "ON",
             "postal": "M5S 1W7",
-            "logo": "168-sushi"
+            "logo": "gyubee"
         },
         {
             "id": "32",
@@ -350,7 +350,7 @@
             "city": "Toronto",
             "province": "ON",
             "postal": "M4P 2C8",
-            "logo": "168-sushi"
+            "logo": "hk-sweets"
         },
         {
             "id": "33",
@@ -361,7 +361,7 @@
             "city": "Thornhill",
             "province": "ON",
             "postal": "L3T 5W2",
-            "logo": "168-sushi"
+            "logo": "home-hot-taste"
         },
         {
             "id": "34",
@@ -372,7 +372,7 @@
             "city": "North York",
             "province": "ON",
             "postal": "M2N 7L3",
-            "logo": "168-sushi"
+            "logo": "hot-star"
         },
         {
             "id": "35",
@@ -383,7 +383,7 @@
             "city": "Markham",
             "province": "ON",
             "postal": "L3R 0N8",
-            "logo": "168-sushi"
+            "logo": "hot-star"
         },
         {
             "id": "36",
@@ -394,7 +394,7 @@
             "city": "Concord",
             "province": "ON",
             "postal": "L4K 5Y6",
-            "logo": "168-sushi"
+            "logo": "katsuya"
         },
         {
             "id": "37",
@@ -405,7 +405,7 @@
             "city": "Toronto",
             "province": "ON",
             "postal": "M5B 2M2",
-            "logo": "168-sushi"
+            "logo": "katsuya"
         },
         {
             "id": "38",
@@ -416,7 +416,7 @@
             "city": "Toronto",
             "province": "ON",
             "postal": "M5V 2A6",
-            "logo": "168-sushi"
+            "logo": "kekou"
         },
         {
             "id": "39",
@@ -427,7 +427,7 @@
             "city": "Thornhill",
             "province": "ON",
             "postal": "L4J 7Y1",
-            "logo": "168-sushi"
+            "logo": "kobi-kbbq"
         },
         {
             "id": "40",
@@ -438,7 +438,7 @@
             "city": "Toronto",
             "province": "ON",
             "postal": "M5B 1S1",
-            "logo": "168-sushi"
+            "logo": "korean-grill-house"
         },
         {
             "id": "41",
@@ -449,7 +449,7 @@
             "city": "Scarborough",
             "province": "ON",
             "postal": "M1V 4W9",
-            "logo": "168-sushi"
+            "logo": "korean-grill-house"
         },
         {
             "id": "42",
@@ -460,7 +460,7 @@
             "city": "Toronto",
             "province": "ON",
             "postal": "M5T 1W3",
-            "logo": "168-sushi"
+            "logo": "krispy-kreme"
         },
         {
             "id": "43",
@@ -471,7 +471,7 @@
             "city": "Scarborough",
             "province": "ON",
             "postal": "M1E 2N3",
-            "logo": "168-sushi"
+            "logo": "krispy-kreme"
         },
         {
             "id": "44",
@@ -482,7 +482,7 @@
             "city": "Toronto",
             "province": "ON",
             "postal": "M5T 2E4",
-            "logo": "168-sushi"
+            "logo": "kung-fu-tea"
         },
         {
             "id": "45",
@@ -493,7 +493,7 @@
             "city": "Brampton",
             "province": "ON",
             "postal": "L6T 3R5",
-            "logo": "168-sushi"
+            "logo": "kung-fu-tea"
         },
         {
             "id": "46",
@@ -504,7 +504,7 @@
             "city": "North York",
             "province": "ON",
             "postal": "M2N 5R4",
-            "logo": "168-sushi"
+            "logo": "machi-machi"
         },
         {
             "id": "47",
@@ -515,7 +515,7 @@
             "city": "Thornhill",
             "province": "ON",
             "postal": "L3T 2B3",
-            "logo": "168-sushi"
+            "logo": "mymy-chicken"
         },
         {
             "id": "48",
@@ -526,29 +526,29 @@
             "city": "North York",
             "province": "ON",
             "postal": "M3N 2V3",
-            "logo": "168-sushi"
+            "logo": "noon-moment"
         },
         {
             "id": "49",
-            "name": "Rolltation Sushi Burrito",
+            "name": "Rolltation",
             "category": "Fast Food",
             "sub_category": "Sushi Burrito",
             "address": "3 Carlton St",
             "city": "Toronto",
             "province": "ON",
             "postal": "M5B 1L2",
-            "logo": "168-sushi"
+            "logo": "rolltation"
         },
         {
             "id": "50",
-            "name": "Rolltation Sushi Burrito",
+            "name": "Rolltation",
             "category": "Fast Food",
             "sub_category": "Sushi Burrito",
             "address": "2291 Yonge St",
             "city": "Toronto",
             "province": "ON",
             "postal": "M4P 2C6",
-            "logo": "168-sushi"
+            "logo": "rolltation"
         },
         {
             "id": "51",
@@ -559,32 +559,10 @@
             "city": "Toronto",
             "province": "ON",
             "postal": "M5A 1K9",
-            "logo": "168-sushi"
+            "logo": "roselle-desserts"
         },
         {
             "id": "52",
-            "name": "Sweet Jesus",
-            "category": "Dessert",
-            "sub_category": "Ice Cream",
-            "address": "106 John St",
-            "city": "Toronto",
-            "province": "ON",
-            "postal": "M5H 1X9",
-            "logo": "168-sushi"
-        },
-        {
-            "id": "53",
-            "name": "Sweet Jesus",
-            "category": "Dessert",
-            "sub_category": "Ice Cream",
-            "address": "25 The West Mall",
-            "city": "Etobicoke",
-            "province": "ON",
-            "postal": "M9C 1B8",
-            "logo": "168-sushi"
-        },
-        {
-            "id": "54",
             "name": "Sushi-Ya Japan",
             "category": "Sushi",
             "sub_category": "Japanese",
@@ -592,7 +570,29 @@
             "city": "Etobicoke",
             "province": "ON",
             "postal": "M9W 1H7",
-            "logo": "168-sushi"
+            "logo": "sushi-ya"
+        },
+        {
+            "id": "53",
+            "name": "Sweet Jesus",
+            "category": "Dessert",
+            "sub_category": "Ice Cream",
+            "address": "106 John St",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M5H 1X9",
+            "logo": "sweet-jesus"
+        },
+        {
+            "id": "54",
+            "name": "Sweet Jesus",
+            "category": "Dessert",
+            "sub_category": "Ice Cream",
+            "address": "25 The West Mall",
+            "city": "Etobicoke",
+            "province": "ON",
+            "postal": "M9C 1B8",
+            "logo": "sweet-jesus"
         },
         {
             "id": "55",
@@ -603,7 +603,7 @@
             "city": "North York",
             "province": "ON",
             "postal": "M2N 5R6",
-            "logo": "168-sushi"
+            "logo": "the-alley"
         },
         {
             "id": "56",
@@ -614,7 +614,7 @@
             "city": "Toronto",
             "province": "ON",
             "postal": "M5H 1T1",
-            "logo": "168-sushi"
+            "logo": "the-alley"
         },
         {
             "id": "57",
@@ -625,7 +625,7 @@
             "city": "Toronto",
             "province": "ON",
             "postal": "M4Y 0B6",
-            "logo": "168-sushi"
+            "logo": "the-alley"
         },
         {
             "id": "58",
@@ -636,7 +636,7 @@
             "city": "North York",
             "province": "ON",
             "postal": "M6A 2T9",
-            "logo": "168-sushi"
+            "logo": "the-cheesecake-factory"
         },
         {
             "id": "59",
@@ -647,7 +647,7 @@
             "city": "Concord",
             "province": "ON",
             "postal": "L4K 5Y6",
-            "logo": "168-sushi"
+            "logo": "toro-toro"
         },
         {
             "id": "60",
@@ -658,7 +658,7 @@
             "city": "Markham",
             "province": "ON",
             "postal": "L3R 4X8",
-            "logo": "168-sushi"
+            "logo": "yang-teashop"
         },
         {
             "id": "61",
@@ -669,7 +669,7 @@
             "city": "Toronto",
             "province": "ON",
             "postal": "M5G 1C7",
-            "logo": "168-sushi"
+            "logo": "yang-teashop"
         },
         {
             "id": "62",
@@ -680,7 +680,7 @@
             "city": "Markham",
             "province": "ON",
             "postal": "L3R 8X6",
-            "logo": "168-sushi"
+            "logo": "yang-teashop"
         }
     ]
 }

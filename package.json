@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "List of various food places in Toronto and surrounding areas.",
   "homepage": "",
-  "main": "src/index.js",
+  "main": "src/App.js",
   "scripts": {
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
