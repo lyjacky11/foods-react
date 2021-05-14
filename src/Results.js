@@ -4,7 +4,7 @@ const Results = ({ places }) => {
   return (
     <div id="results">
       {places.map((place) => (
-        <div key={place.id}>
+        <div id="place-container" key={place.id}>
           <Place
             id={place.id}
             name={place.name}
