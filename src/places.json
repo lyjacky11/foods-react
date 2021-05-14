@@ -22,8 +22,8 @@
         },
         {
             "id": "3",
-            "name": "Bang Bang Ice Cream & Bakery",
-            "category": "Shop",
+            "name": "Bang Bang",
+            "category": "Dessert",
             "sub_category": "Ice Cream",
             "address": "93A Ossington Ave",
             "city": "Toronto",
@@ -53,8 +53,8 @@
         {
             "id": "6",
             "name": "BeaverTails",
-            "category": "Restaurant",
-            "sub_category": "Fast Food",
+            "category": "Fast Food",
+            "sub_category": "Pastry",
             "address": "145 Queens Quay W",
             "city": "Toronto",
             "province": "ON",
@@ -63,8 +63,8 @@
         {
             "id": "7",
             "name": "BeaverTails",
-            "category": "Restaurant",
-            "sub_category": "Fast Food",
+            "category": "Fast Food",
+            "sub_category": "Pastry",
             "address": "288 Bremner Blvd",
             "city": "Toronto",
             "province": "ON",
@@ -73,7 +73,7 @@
         {
             "id": "8",
             "name": "Boba Boy",
-            "category": "Shop",
+            "category": "Drink",
             "sub_category": "Bubble Tea",
             "address": "368 Broadview Ave",
             "city": "Toronto",
@@ -83,7 +83,7 @@
         {
             "id": "9",
             "name": "Boba Boy",
-            "category": "Shop",
+            "category": "Drink",
             "sub_category": "Bubble Tea",
             "address": "H7-2900 Markham Rd",
             "city": "Scarborough",
@@ -93,7 +93,7 @@
         {
             "id": "10",
             "name": "Blaze Pizza",
-            "category": "Restaurant",
+            "category": "Fast Food",
             "sub_category": "Pizza",
             "address": "4841 Yonge St",
             "city": "Toronto",
@@ -103,7 +103,7 @@
         {
             "id": "11",
             "name": "Blaze Pizza",
-            "category": "Restaurant",
+            "category": "Fast Food",
             "sub_category": "Pizza",
             "address": "124-10 Dundas St E",
             "city": "Toronto",
@@ -113,7 +113,7 @@
         {
             "id": "12",
             "name": "Chatime",
-            "category": "Shop",
+            "category": "Drink",
             "sub_category": "Bubble Tea",
             "address": "101A-150 West Dr",
             "city": "Brampton",
@@ -123,7 +123,7 @@
         {
             "id": "13",
             "name": "Chatime",
-            "category": "Shop",
+            "category": "Drink",
             "sub_category": "Bubble Tea",
             "address": "5494 Yonge St",
             "city": "North York",
@@ -133,7 +133,7 @@
         {
             "id": "14",
             "name": "Chatime",
-            "category": "Shop",
+            "category": "Drink",
             "sub_category": "Bubble Tea",
             "address": "132 Dundas St W",
             "city": "Toronto",
@@ -143,7 +143,7 @@
         {
             "id": "15",
             "name": "Chicken in the Kitchen",
-            "category": "Restaurant",
+            "category": "Fried Chicken",
             "sub_category": "Korean",
             "address": "5600 Yonge St",
             "city": "North York",
@@ -163,7 +163,7 @@
         {
             "id": "17",
             "name": "CoCo Fresh Tea",
-            "category": "Shop",
+            "category": "Drink",
             "sub_category": "Bubble Tea",
             "address": "12-4205 Keele St",
             "city": "North York",
@@ -173,7 +173,7 @@
         {
             "id": "18",
             "name": "CoCo Fresh Tea",
-            "category": "Shop",
+            "category": "Drink",
             "sub_category": "Bubble Tea",
             "address": "F5-25 Peel Centre Dr",
             "city": "Brampton",
@@ -183,7 +183,7 @@
         {
             "id": "19",
             "name": "CoCo Fresh Tea",
-            "category": "Shop",
+            "category": "Drink",
             "sub_category": "Bubble Tea",
             "address": "6-3180 Lake Shore Blvd W",
             "city": "Etobicoke",
@@ -193,7 +193,7 @@
         {
             "id": "20",
             "name": "Cuppa Tea",
-            "category": "Shop",
+            "category": "Drink",
             "sub_category": "Bubble Tea",
             "address": "20 Carlton St",
             "city": "Toronto",
@@ -203,7 +203,7 @@
         {
             "id": "21",
             "name": "Daldongnae Korean BBQ",
-            "category": "Restaurant",
+            "category": "Barbecue",
             "sub_category": "Korean",
             "address": "658 Bloor St W",
             "city": "Toronto",
@@ -213,7 +213,7 @@
         {
             "id": "22",
             "name": "Daldongnae Korean BBQ",
-            "category": "Restaurant",
+            "category": "Barbecue",
             "sub_category": "Korean",
             "address": "6034 Yonge St",
             "city": "North York",
@@ -223,8 +223,8 @@
         {
             "id": "23",
             "name": "Demetres",
-            "category": "Restaurant",
-            "sub_category": "Dessert",
+            "category": "Dessert",
+            "sub_category": "Ice Cream",
             "address": "3250 Dufferin St",
             "city": "North York",
             "province": "ON",
@@ -233,8 +233,8 @@
         {
             "id": "24",
             "name": "Demetres",
-            "category": "Restaurant",
-            "sub_category": "Dessert",
+            "category": "Dessert",
+            "sub_category": "Ice Cream",
             "address": "2962 Bloor St W",
             "city": "Etobicoke",
             "province": "ON",
@@ -263,7 +263,7 @@
         {
             "id": "27",
             "name": "Gong Cha",
-            "category": "Shop",
+            "category": "Drink",
             "sub_category": "Bubble Tea",
             "address": "5449 Yonge St",
             "city": "North York",
@@ -273,7 +273,7 @@
         {
             "id": "28",
             "name": "Gong Cha",
-            "category": "Shop",
+            "category": "Drink",
             "sub_category": "Bubble Tea",
             "address": "3636 Steeles Ave E",
             "city": "Markham",
@@ -283,7 +283,7 @@
         {
             "id": "29",
             "name": "Gong Cha",
-            "category": "Shop",
+            "category": "Drink",
             "sub_category": "Bubble Tea",
             "address": "104-60 Town Centre Court",
             "city": "Scarborough",
@@ -293,7 +293,7 @@
         {
             "id": "30",
             "name": "Gyubee Japanese Grill",
-            "category": "Restaurant",
+            "category": "Barbecue",
             "sub_category": "Japanese",
             "address": "157 Dundas St W",
             "city": "Toronto",
@@ -303,7 +303,7 @@
         {
             "id": "31",
             "name": "Gyubee Japanese Grill",
-            "category": "Restaurant",
+            "category": "Barbecue",
             "sub_category": "Japanese",
             "address": "335 Bloor St W",
             "city": "Toronto",
@@ -313,8 +313,8 @@
         {
             "id": "32",
             "name": "HK Sweets",
-            "category": "Restaurant",
-            "sub_category": "Dessert",
+            "category": "Dessert",
+            "sub_category": "Hong Kong",
             "address": "2375 Yonge St",
             "city": "Toronto",
             "province": "ON",
@@ -322,26 +322,36 @@
         },
         {
             "id": "33",
+            "name": "Home of Hot-Taste",
+            "category": "Fried Chicken",
+            "sub_category": "Korean",
+            "address": "3B-5 Glen Cameron Rd",
+            "city": "Thornhill",
+            "province": "ON",
+            "postal": "L3T 5W2"
+        },
+        {
+            "id": "34",
             "name": "Hot Star",
-            "category": "Restaurant",
-            "sub_category": "Fried Chicken",
+            "category": "Fried Chicken",
+            "sub_category": "Taiwanese",
             "address": "5525 Yonge St",
             "city": "North York",
             "province": "ON",
             "postal": "M2N 7L3"
         },
         {
-            "id": "34",
+            "id": "35",
             "name": "Hot Star",
-            "category": "Restaurant",
-            "sub_category": "Fried Chicken",
+            "category": "Fried Chicken",
+            "sub_category": "Taiwanese",
             "address": "F1-4300 Steeles Ave E",
             "city": "Markham",
             "province": "ON",
             "postal": "L3R 0N8"
         },
         {
-            "id": "35",
+            "id": "36",
             "name": "Katsuya",
             "category": "Restaurant",
             "sub_category": "Japanese",
@@ -351,7 +361,7 @@
             "postal": "L4K 5Y6"
         },
         {
-            "id": "36",
+            "id": "37",
             "name": "Katsuya",
             "category": "Restaurant",
             "sub_category": "Japanese",
@@ -361,9 +371,9 @@
             "postal": "M5B 2M2"
         },
         {
-            "id": "37",
+            "id": "38",
             "name": "Kekou",
-            "category": "Shop",
+            "category": "Dessert",
             "sub_category": "Ice Cream",
             "address": "394 Queen St W",
             "city": "Toronto",
@@ -371,9 +381,9 @@
             "postal": "M5V 2A6"
         },
         {
-            "id": "38",
+            "id": "39",
             "name": "Kobi Korean BBQ",
-            "category": "Restaurant",
+            "category": "Barbecue",
             "sub_category": "Korean",
             "address": "100 Steeles Ave W",
             "city": "Thornhill",
@@ -381,9 +391,9 @@
             "postal": "L4J 7Y1"
         },
         {
-            "id": "39",
+            "id": "40",
             "name": "Korean Grill House",
-            "category": "Restaurant",
+            "category": "Barbecue",
             "sub_category": "Korean",
             "address": "754 Yonge St",
             "city": "Toronto",
@@ -391,9 +401,9 @@
             "postal": "M5B 1S1"
         },
         {
-            "id": "40",
+            "id": "41",
             "name": "Korean Grill House",
-            "category": "Restaurant",
+            "category": "Barbecue",
             "sub_category": "Korean",
             "address": "3280 Midland Ave",
             "city": "Scarborough",
@@ -401,9 +411,9 @@
             "postal": "M1V 4W9"
         },
         {
-            "id": "41",
+            "id": "42",
             "name": "Krispy Kreme",
-            "category": "Shop",
+            "category": "Dessert",
             "sub_category": "Donut",
             "address": "164 McCaul St",
             "city": "Toronto",
@@ -411,9 +421,9 @@
             "postal": "M5T 1W3"
         },
         {
-            "id": "42",
+            "id": "43",
             "name": "Krispy Kreme",
-            "category": "Shop",
+            "category": "Dessert",
             "sub_category": "Donut",
             "address": "4411 Kingston Rd",
             "city": "Scarborough",
@@ -421,9 +431,9 @@
             "postal": "M1E 2N3"
         },
         {
-            "id": "43",
+            "id": "44",
             "name": "Kung Fu Tea",
-            "category": "Shop",
+            "category": "Drink",
             "sub_category": "Bubble Tea",
             "address": "264 Spadina Ave",
             "city": "Toronto",
@@ -431,9 +441,9 @@
             "postal": "M5T 2E4"
         },
         {
-            "id": "44",
+            "id": "45",
             "name": "Kung Fu Tea",
-            "category": "Shop",
+            "category": "Drink",
             "sub_category": "Bubble Tea",
             "address": "112-50 Peel Centre Dr",
             "city": "Brampton",
@@ -441,9 +451,9 @@
             "postal": "L6T 3R5"
         },
         {
-            "id": "45",
+            "id": "46",
             "name": "Machi Machi",
-            "category": "Shop",
+            "category": "Drink",
             "sub_category": "Bubble Tea",
             "address": "5317 Yonge St",
             "city": "North York",
@@ -451,9 +461,19 @@
             "postal": "M2N 5R4"
         },
         {
-            "id": "46",
+            "id": "47",
+            "name": "Mymy Chicken",
+            "category": "Fried Chicken",
+            "sub_category": "Korean",
+            "address": "7359 Yonge St",
+            "city": "Thornhill",
+            "province": "ON",
+            "postal": "L3T 2B3"
+        },
+        {
+            "id": "48",
             "name": "Noon Moment",
-            "category": "Shop",
+            "category": "Drink",
             "sub_category": "Bubble Tea",
             "address": "1993 Finch Ave W",
             "city": "North York",
@@ -461,39 +481,39 @@
             "postal": "M3N 2V3"
         },
         {
-            "id": "47",
+            "id": "49",
             "name": "Rolltation Sushi Burrito",
-            "category": "Restaurant",
-            "sub_category": "Fast Food",
+            "category": "Fast Food",
+            "sub_category": "Sushi Burrito",
             "address": "3 Carlton St",
             "city": "Toronto",
             "province": "ON",
             "postal": "M5B 1L2"
         },
         {
-            "id": "48",
+            "id": "50",
             "name": "Rolltation Sushi Burrito",
-            "category": "Restaurant",
-            "sub_category": "Fast Food",
+            "category": "Fast Food",
+            "sub_category": "Sushi Burrito",
             "address": "2291 Yonge St",
             "city": "Toronto",
             "province": "ON",
             "postal": "M4P 2C6"
         },
         {
-            "id": "49",
+            "id": "51",
             "name": "Roselle Desserts",
-            "category": "Shop",
-            "sub_category": "Dessert",
+            "category": "Dessert",
+            "sub_category": "Pastry",
             "address": "362 King St E",
             "city": "Toronto",
             "province": "ON",
             "postal": "M5A 1K9"
         },
         {
-            "id": "50",
+            "id": "52",
             "name": "Sweet Jesus",
-            "category": "Shop",
+            "category": "Dessert",
             "sub_category": "Ice Cream",
             "address": "106 John St",
             "city": "Toronto",
@@ -501,9 +521,9 @@
             "postal": "M5H 1X9"
         },
         {
-            "id": "51",
+            "id": "53",
             "name": "Sweet Jesus",
-            "category": "Shop",
+            "category": "Dessert",
             "sub_category": "Ice Cream",
             "address": "25 The West Mall",
             "city": "Etobicoke",
@@ -511,7 +531,7 @@
             "postal": "M9C 1B8"
         },
         {
-            "id": "52",
+            "id": "54",
             "name": "Sushi-Ya Japan",
             "category": "Sushi",
             "sub_category": "Japanese",
@@ -521,9 +541,9 @@
             "postal": "M9W 1H7"
         },
         {
-            "id": "53",
+            "id": "55",
             "name": "The Alley",
-            "category": "Shop",
+            "category": "Drink",
             "sub_category": "Bubble Tea",
             "address": "5431 Yonge St",
             "city": "North York",
@@ -531,9 +551,9 @@
             "postal": "M2N 5R6"
         },
         {
-            "id": "54",
+            "id": "56",
             "name": "The Alley",
-            "category": "Shop",
+            "category": "Drink",
             "sub_category": "Bubble Tea",
             "address": "R3-120 Adelaide St W",
             "city": "Toronto",
@@ -541,9 +561,9 @@
             "postal": "M5H 1T1"
         },
         {
-            "id": "55",
+            "id": "57",
             "name": "The Alley",
-            "category": "Shop",
+            "category": "Drink",
             "sub_category": "Bubble Tea",
             "address": "5 St Joseph St",
             "city": "Toronto",
@@ -551,7 +571,7 @@
             "postal": "M4Y 0B6"
         },
         {
-            "id": "56",
+            "id": "58",
             "name": "The Cheesecake Factory",
             "category": "Restaurant",
             "sub_category": "Cheesecake",
@@ -561,7 +581,7 @@
             "postal": "M6A 2T9"
         },
         {
-            "id": "57",
+            "id": "59",
             "name": "Toro Toro",
             "category": "Sushi",
             "sub_category": "Japanese",
@@ -571,9 +591,9 @@
             "postal": "L4K 5Y6"
         },
         {
-            "id": "58",
+            "id": "60",
             "name": "Yang Teashop",
-            "category": "Shop",
+            "category": "Drink",
             "sub_category": "Bubble Tea",
             "address": "D3-8570 Woodbine Ave",
             "city": "Markham",
@@ -581,9 +601,9 @@
             "postal": "L3R 4X8"
         },
         {
-            "id": "59",
+            "id": "61",
             "name": "Yang Teashop",
-            "category": "Shop",
+            "category": "Drink",
             "sub_category": "Bubble Tea",
             "address": "183 Dundas St W",
             "city": "Toronto",
@@ -591,9 +611,9 @@
             "postal": "M5G 1C7"
         },
         {
-            "id": "60",
+            "id": "62",
             "name": "Yang Teashop",
-            "category": "Shop",
+            "category": "Drink",
             "sub_category": "Bubble Tea",
             "address": "106-3623 Highway 7",
             "city": "Markham",

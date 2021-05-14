@@ -15,8 +15,8 @@ const Place = ({
       <div className="place-details">
         <h2>{name}</h2>
         <h3>
+          {sub_category != "null" ? `${sub_category} ` : ""}
           {category}
-          {sub_category != "null" ? ` (${sub_category})` : ""}
         </h3>
         <h4>{address}</h4>
         <h4>
