@@ -84,6 +84,13 @@ const SearchBox = ({ places, setFilteredPlaces }) => {
     setFilteredPlaces(data);
   }, [nameValue, locationValue, categoryValue, subCategoryValue]);
 
+  function resetFilters() {
+    setNameValue("");
+    setLocationValue("");
+    setCategoryValue("");
+    setSubCategoryValue("");
+  }
+
   return (
     <div className="search-box">
       <b>Search for a place:</b>
@@ -104,7 +111,7 @@ const SearchBox = ({ places, setFilteredPlaces }) => {
         </label>
         <br />
         <label htmlFor="location">
-          Location
+          Location:
           <input
             id="location"
             value={locationValue}
@@ -149,7 +156,7 @@ const SearchBox = ({ places, setFilteredPlaces }) => {
           </select>
         </label>
         <br />
-        <button>Reset</button>
+        <button onClick={resetFilters}>Reset</button>
       </form>
     </div>
   );
