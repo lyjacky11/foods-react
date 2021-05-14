@@ -2,6 +2,20 @@
 
 List of various food places in Toronto and surrounding areas. Code written in React JS.
 
+## Scripts
+
+### Development
+
+- `npm run dev`
+  - `"dev": "parcel src/index.html"`
+- `npm run dev:nocache`
+  - `"dev:nocache": "parcel src/index.html --no-cache"`
+
+### Production
+
+- `npm run build`
+  - `"build": "parcel build --public-url ./dist/ src/index.html"`
+
 ## React Concepts
 
 - [JSX](https://reactjs.org/docs/introducing-jsx.html)
