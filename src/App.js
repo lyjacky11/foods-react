@@ -20,8 +20,17 @@ const App = () => {
   return (
     <div className="app">
       <div className="header">
-        <h1 className="title">Food Places</h1>
+        <h2 className="title">Food Places</h2>
         <h3 className="subtitle">By: Jacky Ly</h3>
+        <h4 className="links">
+          <a href="https://github.com/lyjacky11" target="_blank">
+            GitHub
+          </a>{" "}
+          |{" "}
+          <a href="https://github.com/lyjacky11/foods-react" target="_blank">
+            Project Repo
+          </a>
+        </h4>
       </div>
       <SearchBox
         places={places}
