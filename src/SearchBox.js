@@ -104,7 +104,7 @@ const SearchBox = ({ places, setFilteredPlaces }) => {
           <input
             id="name"
             value={nameValue}
-            placeholder="Name of Place"
+            placeholder="Search by name..."
             onChange={(e) => setNameValue(e.target.value)}
             onBlur={(e) => setNameValue(e.target.value)}
           />
@@ -115,7 +115,7 @@ const SearchBox = ({ places, setFilteredPlaces }) => {
           <input
             id="location"
             value={locationValue}
-            placeholder="City, Province, or Postal Code"
+            placeholder="Address, Location, Postal Code"
             onChange={(e) => setLocationValue(e.target.value)}
             onBlur={(e) => setLocationValue(e.target.value)}
           />
