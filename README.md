@@ -25,6 +25,7 @@ List of various food places in Toronto and surrounding areas. Code written in Re
 - [Handling Events](https://reactjs.org/docs/handling-events.html)
 - [State Hook](https://reactjs.org/docs/hooks-state.html)
 - [Effect Hook](https://reactjs.org/docs/hooks-effect.html)
+- [Custom Hooks](https://reactjs.org/docs/hooks-custom.html)
 - [React Router](https://reactrouter.com/web/guides/quick-start)
 
 ## Other Concepts
