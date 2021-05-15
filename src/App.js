@@ -1,6 +1,11 @@
 import { StrictMode, useState, useEffect } from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from "react-router-dom";
 import SearchBox from "./SearchBox";
 import Results from "./Results";
 import Details from "./Details";
@@ -36,16 +41,19 @@ const App = () => {
           </h4>
         </div>
         <Switch>
-          <Route path="/place/:id">
-            <Details />
-          </Route>
-          <Route path="/">
+          <Route exact path="/">
             <SearchBox
               places={places}
               filteredPlaces={filteredPlaces}
               setFilteredPlaces={setFilteredPlaces}
             />
             <Results filteredPlaces={filteredPlaces} />
+          </Route>
+          <Route exact path="/place/:id">
+            <Details />
+          </Route>
+          <Route>
+            <Redirect to="/" />
           </Route>
         </Switch>
       </Router>
