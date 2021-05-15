@@ -6,6 +6,7 @@ const SearchBox = ({ places, filteredPlaces, setFilteredPlaces }) => {
   const [nameValue, setNameValue] = useState("");
   const [locationValue, setLocationValue] = useState("");
   const [categoryValue, setCategoryValue] = useState("");
+  const [prevCategoryValue, setPrevCategoryValue] = useState("");
   const [subCategoryValue, setSubCategoryValue] = useState("");
 
   // Custom hooks
@@ -42,7 +43,8 @@ const SearchBox = ({ places, filteredPlaces, setFilteredPlaces }) => {
     }
     // Category
     let placesByCategory = new Set();
-    if (!categoryValue) {
+    console.log(categoryValue, subCategoryValue);
+    if (!categoryValue || categoryValue !== prevCategoryValue) {
       setSubCategoryValue("");
     }
     if (categoryValue) {
@@ -51,6 +53,7 @@ const SearchBox = ({ places, filteredPlaces, setFilteredPlaces }) => {
           placesByCategory.add(place);
         }
       });
+      setPrevCategoryValue(categoryValue);
       data = [...placesByCategory];
     }
     // Sub Category
