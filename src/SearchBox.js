@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const SearchBox = ({ places, setFilteredPlaces }) => {
+const SearchBox = ({ places, filteredPlaces, setFilteredPlaces }) => {
   const [nameValue, setNameValue] = useState("");
   const [locationValue, setLocationValue] = useState("");
   const [categoryValue, setCategoryValue] = useState("");
@@ -158,6 +158,8 @@ const SearchBox = ({ places, setFilteredPlaces }) => {
         </label>
         <br />
         <button onClick={resetFilters}>Reset</button>
+        <br />
+        <h3>{filteredPlaces.length} results</h3>
       </form>
     </div>
   );

@@ -4,7 +4,7 @@ const Results = ({ filteredPlaces }) => {
   return (
     <div className="results">
       {!filteredPlaces.length ? (
-        <h2>No places found!</h2>
+        <h3>No results matching the search filters found.</h3>
       ) : (
         filteredPlaces.map((place) => (
           <Place

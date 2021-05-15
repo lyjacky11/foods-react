@@ -21,7 +21,11 @@ const App = () => {
     <div className="app">
       <h1 className="header">Food Places</h1>
       <h3 className="subtitle">By: Jacky Ly</h3>
-      <SearchBox places={places} setFilteredPlaces={setFilteredPlaces} />
+      <SearchBox
+        places={places}
+        filteredPlaces={filteredPlaces}
+        setFilteredPlaces={setFilteredPlaces}
+      />
       <Results filteredPlaces={filteredPlaces} />
     </div>
   );
