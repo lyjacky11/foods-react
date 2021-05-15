@@ -73,13 +73,14 @@ const SearchBox = ({ places, setFilteredPlaces }) => {
       data = [...placesByCategory];
     }
     // Sub Category
+    let placesBySubCategory = new Set();
     if (subCategoryValue) {
       data.map((place) => {
-        if (place.subCategory !== subCategoryValue) {
-          const index = data.indexOf(place);
-          data.slice(index, 1);
+        if (place.sub_category === subCategoryValue) {
+          placesBySubCategory.add(place);
         }
       });
+      data = [...placesBySubCategory];
     }
     setFilteredPlaces(data);
   }, [nameValue, locationValue, categoryValue, subCategoryValue]);
@@ -93,7 +94,7 @@ const SearchBox = ({ places, setFilteredPlaces }) => {
 
   return (
     <div className="search-box">
-      <b>Search for a place:</b>
+      <b>Search Filters</b>
       <form
         onSubmit={(e) => {
           e.preventDefault();
