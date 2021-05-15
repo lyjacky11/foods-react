@@ -8,14 +8,14 @@ const App = () => {
   const [places, setPlaces] = useState([]);
   const [filteredPlaces, setFilteredPlaces] = useState([]);
 
+  useEffect(() => {
+    getPlaces();
+  }, []);
+
   function getPlaces() {
     setPlaces(placesJson.places);
     setFilteredPlaces(placesJson.places);
   }
-
-  useEffect(() => {
-    getPlaces();
-  }, []);
 
   return (
     <div className="app">
