@@ -69,7 +69,7 @@
         {
             "id": "7",
             "name": "BeaverTails",
-            "category": "Fast Food",
+            "category": "Dessert",
             "sub_category": "Pastry",
             "address": "145 Queens Quay W",
             "city": "Toronto",
@@ -80,7 +80,7 @@
         {
             "id": "8",
             "name": "BeaverTails",
-            "category": "Fast Food",
+            "category": "Dessert",
             "sub_category": "Pastry",
             "address": "288 Bremner Blvd",
             "city": "Toronto",
@@ -266,6 +266,28 @@
         },
         {
             "id": "25",
+            "name": "Copacabana",
+            "category": "Restaurant",
+            "sub_category": "Steak House",
+            "address": "205 Marycroft Ave",
+            "city": "Woodbridge",
+            "province": "ON",
+            "postal": "L4L 5X8",
+            "logo": "copacabana"
+        },
+        {
+            "id": "26",
+            "name": "Copacabana",
+            "category": "Restaurant",
+            "sub_category": "Steak House",
+            "address": "230 Adelaide St W",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M5H 3H1",
+            "logo": "copacabana"
+        },
+        {
+            "id": "27",
             "name": "Cuppa Tea",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -276,7 +298,7 @@
             "logo": "cuppa-tea"
         },
         {
-            "id": "26",
+            "id": "28",
             "name": "Cuppa Tea",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -287,7 +309,7 @@
             "logo": "cuppa-tea"
         },
         {
-            "id": "27",
+            "id": "29",
             "name": "Cuppa Tea",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -298,7 +320,7 @@
             "logo": "cuppa-tea"
         },
         {
-            "id": "28",
+            "id": "30",
             "name": "Daldongnae",
             "category": "Barbecue",
             "sub_category": "Korean",
@@ -309,7 +331,7 @@
             "logo": "daldongnae"
         },
         {
-            "id": "29",
+            "id": "31",
             "name": "Daldongnae",
             "category": "Barbecue",
             "sub_category": "Korean",
@@ -320,7 +342,7 @@
             "logo": "daldongnae"
         },
         {
-            "id": "30",
+            "id": "32",
             "name": "Demetres",
             "category": "Dessert",
             "sub_category": "Ice Cream",
@@ -331,7 +353,7 @@
             "logo": "demetres"
         },
         {
-            "id": "31",
+            "id": "33",
             "name": "Demetres",
             "category": "Dessert",
             "sub_category": "Ice Cream",
@@ -342,7 +364,7 @@
             "logo": "demetres"
         },
         {
-            "id": "32",
+            "id": "34",
             "name": "Eggspectation",
             "category": "Restaurant",
             "sub_category": "Breakfast",
@@ -353,7 +375,7 @@
             "logo": "eggspectation"
         },
         {
-            "id": "33",
+            "id": "35",
             "name": "Eggspectation",
             "category": "Restaurant",
             "sub_category": "Breakfast",
@@ -364,7 +386,7 @@
             "logo": "eggspectation"
         },
         {
-            "id": "34",
+            "id": "36",
             "name": "Gong Cha",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -375,7 +397,7 @@
             "logo": "gong-cha"
         },
         {
-            "id": "35",
+            "id": "37",
             "name": "Gong Cha",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -386,7 +408,7 @@
             "logo": "gong-cha"
         },
         {
-            "id": "36",
+            "id": "38",
             "name": "Gong Cha",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -397,7 +419,7 @@
             "logo": "gong-cha"
         },
         {
-            "id": "37",
+            "id": "39",
             "name": "Gyubee",
             "category": "Barbecue",
             "sub_category": "Japanese",
@@ -408,7 +430,7 @@
             "logo": "gyubee"
         },
         {
-            "id": "38",
+            "id": "40",
             "name": "Gyubee",
             "category": "Barbecue",
             "sub_category": "Japanese",
@@ -419,7 +441,7 @@
             "logo": "gyubee"
         },
         {
-            "id": "39",
+            "id": "41",
             "name": "Gyubee",
             "category": "Barbecue",
             "sub_category": "Japanese",
@@ -430,7 +452,7 @@
             "logo": "gyubee"
         },
         {
-            "id": "40",
+            "id": "42",
             "name": "HK Sweets",
             "category": "Dessert",
             "sub_category": "Hong Kong",
@@ -441,7 +463,7 @@
             "logo": "hk-sweets"
         },
         {
-            "id": "41",
+            "id": "43",
             "name": "Home of Hot-Taste",
             "category": "Fried Chicken",
             "sub_category": "Korean",
@@ -452,7 +474,7 @@
             "logo": "home-hot-taste"
         },
         {
-            "id": "42",
+            "id": "44",
             "name": "Hot Star",
             "category": "Fried Chicken",
             "sub_category": "Taiwanese",
@@ -463,7 +485,7 @@
             "logo": "hot-star"
         },
         {
-            "id": "43",
+            "id": "45",
             "name": "Hot Star",
             "category": "Fried Chicken",
             "sub_category": "Taiwanese",
@@ -474,7 +496,7 @@
             "logo": "hot-star"
         },
         {
-            "id": "44",
+            "id": "46",
             "name": "Katsuya",
             "category": "Restaurant",
             "sub_category": "Japanese",
@@ -485,7 +507,7 @@
             "logo": "katsuya"
         },
         {
-            "id": "45",
+            "id": "47",
             "name": "Katsuya",
             "category": "Restaurant",
             "sub_category": "Japanese",
@@ -496,7 +518,7 @@
             "logo": "katsuya"
         },
         {
-            "id": "46",
+            "id": "48",
             "name": "Katsuya",
             "category": "Restaurant",
             "sub_category": "Japanese",
@@ -507,7 +529,7 @@
             "logo": "katsuya"
         },
         {
-            "id": "47",
+            "id": "49",
             "name": "Kekou",
             "category": "Dessert",
             "sub_category": "Ice Cream",
@@ -518,7 +540,7 @@
             "logo": "kekou"
         },
         {
-            "id": "48",
+            "id": "50",
             "name": "Kobi Korean BBQ",
             "category": "Barbecue",
             "sub_category": "Korean",
@@ -529,7 +551,7 @@
             "logo": "kobi-kbbq"
         },
         {
-            "id": "49",
+            "id": "51",
             "name": "Kobi Korean BBQ",
             "category": "Barbecue",
             "sub_category": "Korean",
@@ -540,7 +562,7 @@
             "logo": "kobi-kbbq"
         },
         {
-            "id": "50",
+            "id": "52",
             "name": "Korean Grill House",
             "category": "Barbecue",
             "sub_category": "Korean",
@@ -551,7 +573,7 @@
             "logo": "korean-grill-house"
         },
         {
-            "id": "51",
+            "id": "53",
             "name": "Korean Grill House",
             "category": "Barbecue",
             "sub_category": "Korean",
@@ -562,7 +584,7 @@
             "logo": "korean-grill-house"
         },
         {
-            "id": "52",
+            "id": "54",
             "name": "Krispy Kreme",
             "category": "Dessert",
             "sub_category": "Donut",
@@ -573,7 +595,7 @@
             "logo": "krispy-kreme"
         },
         {
-            "id": "53",
+            "id": "55",
             "name": "Krispy Kreme",
             "category": "Dessert",
             "sub_category": "Donut",
@@ -584,7 +606,7 @@
             "logo": "krispy-kreme"
         },
         {
-            "id": "54",
+            "id": "56",
             "name": "Kung Fu Tea",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -595,7 +617,7 @@
             "logo": "kung-fu-tea"
         },
         {
-            "id": "55",
+            "id": "57",
             "name": "Kung Fu Tea",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -606,7 +628,7 @@
             "logo": "kung-fu-tea"
         },
         {
-            "id": "56",
+            "id": "58",
             "name": "Machi Machi",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -617,7 +639,7 @@
             "logo": "machi-machi"
         },
         {
-            "id": "57",
+            "id": "59",
             "name": "Machi Machi",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -628,7 +650,7 @@
             "logo": "machi-machi"
         },
         {
-            "id": "58",
+            "id": "60",
             "name": "Machi Machi",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -639,7 +661,7 @@
             "logo": "machi-machi"
         },
         {
-            "id": "59",
+            "id": "61",
             "name": "Mymy Chicken",
             "category": "Fried Chicken",
             "sub_category": "Korean",
@@ -650,7 +672,7 @@
             "logo": "mymy-chicken"
         },
         {
-            "id": "60",
+            "id": "62",
             "name": "Mymy Chicken",
             "category": "Fried Chicken",
             "sub_category": "Korean",
@@ -661,7 +683,7 @@
             "logo": "mymy-chicken"
         },
         {
-            "id": "61",
+            "id": "63",
             "name": "Noon Moment",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -672,7 +694,7 @@
             "logo": "noon-moment"
         },
         {
-            "id": "62",
+            "id": "64",
             "name": "Rolltation",
             "category": "Fast Food",
             "sub_category": "Sushi Burrito",
@@ -683,7 +705,7 @@
             "logo": "rolltation"
         },
         {
-            "id": "63",
+            "id": "65",
             "name": "Rolltation",
             "category": "Fast Food",
             "sub_category": "Sushi Burrito",
@@ -694,7 +716,7 @@
             "logo": "rolltation"
         },
         {
-            "id": "64",
+            "id": "66",
             "name": "Roselle Desserts",
             "category": "Dessert",
             "sub_category": "Pastry",
@@ -705,7 +727,7 @@
             "logo": "roselle-desserts"
         },
         {
-            "id": "65",
+            "id": "67",
             "name": "Sushi-Ya Japan",
             "category": "Sushi",
             "sub_category": "Japanese",
@@ -716,7 +738,7 @@
             "logo": "sushi-ya"
         },
         {
-            "id": "66",
+            "id": "68",
             "name": "Sweet Jesus",
             "category": "Dessert",
             "sub_category": "Ice Cream",
@@ -727,7 +749,7 @@
             "logo": "sweet-jesus"
         },
         {
-            "id": "67",
+            "id": "69",
             "name": "Sweet Jesus",
             "category": "Dessert",
             "sub_category": "Ice Cream",
@@ -738,7 +760,7 @@
             "logo": "sweet-jesus"
         },
         {
-            "id": "68",
+            "id": "70",
             "name": "The Alley",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -749,7 +771,7 @@
             "logo": "the-alley"
         },
         {
-            "id": "69",
+            "id": "71",
             "name": "The Alley",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -760,7 +782,7 @@
             "logo": "the-alley"
         },
         {
-            "id": "70",
+            "id": "72",
             "name": "The Alley",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -771,7 +793,7 @@
             "logo": "the-alley"
         },
         {
-            "id": "71",
+            "id": "73",
             "name": "The Cheesecake Factory",
             "category": "Restaurant",
             "sub_category": "Cheesecake",
@@ -782,7 +804,7 @@
             "logo": "the-cheesecake-factory"
         },
         {
-            "id": "72",
+            "id": "74",
             "name": "Toro Toro",
             "category": "Sushi",
             "sub_category": "Japanese",
@@ -793,7 +815,7 @@
             "logo": "toro-toro"
         },
         {
-            "id": "73",
+            "id": "75",
             "name": "Yang Teashop",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -804,7 +826,7 @@
             "logo": "yang-teashop"
         },
         {
-            "id": "74",
+            "id": "76",
             "name": "Yang Teashop",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -815,7 +837,7 @@
             "logo": "yang-teashop"
         },
         {
-            "id": "75",
+            "id": "77",
             "name": "Yang Teashop",
             "category": "Drink",
             "sub_category": "Bubble Tea",
