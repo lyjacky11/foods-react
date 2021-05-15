@@ -116,7 +116,7 @@ const SearchBox = ({ places, filteredPlaces, setFilteredPlaces }) => {
           <input
             id="location"
             value={locationValue}
-            placeholder="Address, Location, Postal Code"
+            placeholder="Address, City, Prov, or Postal Code"
             onChange={(e) => setLocationValue(e.target.value)}
             onBlur={(e) => setLocationValue(e.target.value)}
           />
@@ -157,7 +157,9 @@ const SearchBox = ({ places, filteredPlaces, setFilteredPlaces }) => {
           </select>
         </label>
         <br />
-        <button onClick={resetFilters}>Reset</button>
+        <button className="button" onClick={resetFilters}>
+          Reset Filters
+        </button>
         <br />
         <h3>{filteredPlaces.length} results</h3>
       </form>

@@ -19,8 +19,10 @@ const App = () => {
 
   return (
     <div className="app">
-      <h1 className="header">Food Places</h1>
-      <h3 className="subtitle">By: Jacky Ly</h3>
+      <div className="header">
+        <h1 className="title">Food Places</h1>
+        <h3 className="subtitle">By: Jacky Ly</h3>
+      </div>
       <SearchBox
         places={places}
         filteredPlaces={filteredPlaces}

@@ -12,16 +12,24 @@ body {
 
 label > input,
 select {
-  margin-left: 15px;
-  width: 200px;
+  padding: 5px;
+  margin: 5px;
+  width: 225px;
 }
 
+.header,
 .search-box {
   width: 50%;
-  padding: 20px;
-  margin: 0 auto;
+  padding: 5px;
+  margin: 5px auto;
   border-radius: 8%;
   background-color: white;
+}
+
+.button {
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
 }
 
 .results {
