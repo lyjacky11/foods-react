@@ -47,7 +47,7 @@ select {
 .place-container {
   background-color: white;
   border-radius: 7%;
-  padding: 10px;
+  padding: 15px;
   margin: 10px;
 }
 
@@ -69,4 +69,14 @@ select {
   width: 300px;
   height: 200px;
   border: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .header,
+  .search-box {
+    width: 75%;
+  }
+  .place-container {
+    width: 75%;
+  }
 }
