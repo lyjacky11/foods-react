@@ -1,38 +1,16 @@
 import { useState, useEffect } from "react";
+import useCategories from "./useCategories";
+import useSubCategories from "./useSubCategories";
 
 const SearchBox = ({ places, filteredPlaces, setFilteredPlaces }) => {
   const [nameValue, setNameValue] = useState("");
   const [locationValue, setLocationValue] = useState("");
   const [categoryValue, setCategoryValue] = useState("");
-  const [categories, setCategories] = useState([]);
   const [subCategoryValue, setSubCategoryValue] = useState("");
-  const [subCategories, setSubCategories] = useState([]);
 
-  // Get unique categories
-  useEffect(() => {
-    var data = [];
-    places.map((place) => {
-      var found = data.find((x) => x === place.category);
-      if (!found) {
-        data.push(place.category);
-      }
-    });
-    data.sort();
-    setCategories(data);
-  }, [places]);
-
-  // Get unique sub-categories for a selected category
-  useEffect(() => {
-    var data = [];
-    places.map((place) => {
-      var found = data.find((x) => x === place.sub_category);
-      if (!found && place.category === categoryValue) {
-        data.push(place.sub_category);
-      }
-    });
-    data.sort();
-    setSubCategories(data);
-  }, [categoryValue]);
+  // Custom hooks
+  const [categories] = useCategories(places);
+  const [subCategories] = useSubCategories(places, categoryValue);
 
   // Fetch places by search parameters
   useEffect(() => {
