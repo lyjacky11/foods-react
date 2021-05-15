@@ -1,7 +1,9 @@
 import { StrictMode, useState, useEffect } from "react";
 import ReactDOM from "react-dom";
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import SearchBox from "./SearchBox";
 import Results from "./Results";
+import Details from "./Details";
 import placesJson from "./places.json";
 
 const App = () => {
@@ -19,25 +21,34 @@ const App = () => {
 
   return (
     <div className="app">
-      <div className="header">
-        <h2 className="title">Food Places</h2>
-        <h3 className="subtitle">By: Jacky Ly</h3>
-        <h4 className="links">
-          <a href="https://github.com/lyjacky11" target="_blank">
-            GitHub
-          </a>{" "}
-          |{" "}
-          <a href="https://github.com/lyjacky11/foods-react" target="_blank">
-            Project Repo
-          </a>
-        </h4>
-      </div>
-      <SearchBox
-        places={places}
-        filteredPlaces={filteredPlaces}
-        setFilteredPlaces={setFilteredPlaces}
-      />
-      <Results filteredPlaces={filteredPlaces} />
+      <Router>
+        <div className="header">
+          <h2 className="title">Food Places</h2>
+          <h3 className="subtitle">By: Jacky Ly</h3>
+          <h4 className="links">
+            <a href="https://github.com/lyjacky11" target="_blank">
+              GitHub
+            </a>{" "}
+            |{" "}
+            <a href="https://github.com/lyjacky11/foods-react" target="_blank">
+              Project Repo
+            </a>
+          </h4>
+        </div>
+        <Switch>
+          <Route path="/place/:id">
+            <Details />
+          </Route>
+          <Route path="/">
+            <SearchBox
+              places={places}
+              filteredPlaces={filteredPlaces}
+              setFilteredPlaces={setFilteredPlaces}
+            />
+            <Results filteredPlaces={filteredPlaces} />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 };

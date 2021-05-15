@@ -12,6 +12,7 @@ body {
 
 a {
   color: royalblue;
+  text-decoration: none;
 }
 
 label > input,

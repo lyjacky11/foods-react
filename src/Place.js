@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logos from "./logos/*.png";
 const MAPS_API = process.env.REACT_APP_MAPS_API;
 
@@ -13,7 +14,7 @@ const Place = ({
   logo,
 }) => {
   return (
-    <div className="place-container">
+    <Link to={`/place/${id}`} className="place-container">
       <div className="place-logo">
         <img src={`${logos[logo]}`} alt={name}></img>
       </div>
@@ -30,12 +31,12 @@ const Place = ({
       </div>
       {/* <div className="embed-map">
         <iframe
-          loading="lazy"
-          allowFullScreen
-          src={`https://www.google.com/maps/embed/v1/place?key=${MAPS_API}&q=${name}+${address}+${city}+${province}+${postal}`}
+        loading="lazy"
+        allowFullScreen
+        src={`https://www.google.com/maps/embed/v1/place?key=${MAPS_API}&q=${name}+${address}+${city}+${province}+${postal}`}
         ></iframe>
       </div> */}
-    </div>
+    </Link>
   );
 };
 
