@@ -14,22 +14,33 @@ const SearchBox = ({ places, filteredPlaces, setFilteredPlaces }) => {
   const [subCategories] = useSubCategories(places, categoryValue);
 
   // Fetch places by search parameters
+  let placesList = places;
   useEffect(() => {
-    let data = places;
-    // Name
+    findByName();
+    findByLocation();
+    findByCategory();
+    findBySubCategory();
+    setFilteredPlaces(placesList);
+  }, [nameValue, locationValue, categoryValue, subCategoryValue]);
+
+  // Find places by name
+  function findByName() {
     let placesByName = new Set();
     if (nameValue) {
-      data.map((place) => {
+      placesList.map((place) => {
         if (place.name.toLowerCase().includes(nameValue.toLowerCase())) {
           placesByName.add(place);
         }
       });
-      data = [...placesByName];
+      placesList = [...placesByName];
     }
-    // Location
+  }
+
+  // Find places by location
+  function findByLocation() {
     let placesByLocation = new Set();
     if (locationValue) {
-      data.map((place) => {
+      placesList.map((place) => {
         if (
           place.address.toLowerCase().includes(locationValue.toLowerCase()) ||
           place.city.toLowerCase().includes(locationValue.toLowerCase()) ||
@@ -39,36 +50,41 @@ const SearchBox = ({ places, filteredPlaces, setFilteredPlaces }) => {
           placesByLocation.add(place);
         }
       });
-      data = [...placesByLocation];
+      placesList = [...placesByLocation];
     }
-    // Category
+  }
+
+  // Find places by category
+  function findByCategory() {
     let placesByCategory = new Set();
-    console.log(categoryValue, subCategoryValue);
     if (!categoryValue || categoryValue !== prevCategoryValue) {
       setSubCategoryValue("");
     }
     if (categoryValue) {
-      data.map((place) => {
+      placesList.map((place) => {
         if (place.category === categoryValue) {
           placesByCategory.add(place);
         }
       });
       setPrevCategoryValue(categoryValue);
-      data = [...placesByCategory];
+      placesList = [...placesByCategory];
     }
-    // Sub Category
+  }
+
+  // Find places by sub category
+  function findBySubCategory() {
     let placesBySubCategory = new Set();
     if (subCategoryValue) {
-      data.map((place) => {
+      placesList.map((place) => {
         if (place.sub_category === subCategoryValue) {
           placesBySubCategory.add(place);
         }
       });
-      data = [...placesBySubCategory];
+      placesList = [...placesBySubCategory];
     }
-    setFilteredPlaces(data);
-  }, [nameValue, locationValue, categoryValue, subCategoryValue]);
+  }
 
+  // Reset search filters
   function resetFilters() {
     setNameValue("");
     setLocationValue("");
