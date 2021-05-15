@@ -64,6 +64,9 @@ const SearchBox = ({ places, filteredPlaces, setFilteredPlaces }) => {
     }
     // Category
     let placesByCategory = new Set();
+    if (!categoryValue) {
+      setSubCategoryValue("");
+    }
     if (categoryValue) {
       data.map((place) => {
         if (place.category === categoryValue) {
