@@ -20,6 +20,7 @@ const SearchBox = ({ places, filteredPlaces, setFilteredPlaces }) => {
   // Fetch places by search parameters
   let placesList = places;
   useEffect(() => {
+    document.title = "Toronto Foods";
     findByName();
     findByLocation();
     findByCategory();

@@ -20,7 +20,6 @@ const App = () => {
 
   useEffect(() => {
     fetchPlaces();
-    document.title = "Toronto Foods";
   }, []);
 
   function fetchPlaces() {
