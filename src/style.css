@@ -74,7 +74,7 @@ select {
 }
 
 .place-details-logo > img {
-  height: 125px;
+  height: 100px;
 }
 
 .embed-map > iframe {
@@ -88,10 +88,27 @@ select {
   .search-box {
     width: 90%;
   }
-  .place-container,
+
+  .place-container {
+    width: 40%;
+    padding: 10px;
+    margin: 5px;
+  }
+
+  .place-logo > img {
+    height: 75px;
+  }
+
+  .place-info > h2,
+  h3,
+  h4 {
+    font-size: 0.9rem;
+  }
+
   .place-details {
     width: 90%;
   }
+
   .embed-map > iframe {
     width: 300px;
     height: 200px;

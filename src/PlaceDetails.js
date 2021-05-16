@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { withRouter } from "react-router-dom";
+import { Link, withRouter } from "react-router-dom";
 import logos from "./logos/*.png";
 
 const MAPS_API = process.env.REACT_APP_MAPS_API;
@@ -54,18 +54,19 @@ class PlaceDetails extends Component {
 
     return (
       <div className="place-details">
+        <h4>
+          <Link to="/">↩ Previous Page</Link>
+        </h4>
         <div className="place-details-logo">
           <img src={`${logos[logo]}`} alt={name}></img>
         </div>
         <div className="place-details-info">
-          <h2>{name}</h2>
           <h3>
-            {sub_category != "null" ? `${sub_category} ` : ""}
+            {name} | {sub_category != "null" ? `${sub_category} ` : ""}
             {category}
           </h3>
-          <h4>{address}</h4>
           <h4>
-            {city}, {province} {postal}
+            {address}, {city}, {province} {postal}
           </h4>
         </div>
         <div className="embed-map">

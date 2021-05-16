@@ -4,7 +4,6 @@ import {
   BrowserRouter as Router,
   Route,
   Switch,
-  Link,
   Redirect,
 } from "react-router-dom";
 import SearchBox from "./SearchBox";
@@ -36,9 +35,6 @@ const App = () => {
         <div className="header">
           <h2 className="title">Food Places</h2>
           <h3 className="subtitle">By: Jacky Ly</h3>
-          <h4>
-            <Link to="/">Homepage</Link>
-          </h4>
           <h5 className="links">
             <a href="https://github.com/lyjacky11" target="_blank">
               GitHub
