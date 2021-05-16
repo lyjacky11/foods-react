@@ -99,7 +99,6 @@ const SearchBox = ({ places, filteredPlaces, setFilteredPlaces }) => {
           data.push(place);
         }
       });
-      console.log(data);
       placesList = data;
     }
   }
