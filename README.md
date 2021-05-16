@@ -18,7 +18,7 @@ List of various food places in Toronto and surrounding areas. Code written in Re
 ### Production
 
 - `npm run build`
-  - `"build": "parcel build --public-url ./dist/ src/index.html"`
+  - `"build": "parcel build src/index.html"`
 
 ## React Concepts
 
