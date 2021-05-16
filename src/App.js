@@ -14,7 +14,7 @@ import placesJson from "./places.json";
 import "./style.css";
 
 const App = () => {
-  const theme = useState("aqua");
+  const theme = useState("light");
   const [places, setPlaces] = useState([]);
   const [filteredPlaces, setFilteredPlaces] = useState([]);
 

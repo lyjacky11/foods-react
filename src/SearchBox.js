@@ -163,7 +163,10 @@ const SearchBox = ({ places, filteredPlaces, setFilteredPlaces }) => {
         <button
           className="button"
           onClick={resetFilters}
-          style={{ backgroundColor: theme }}
+          style={{
+            color: theme === "dark" ? "white" : "",
+            backgroundColor: theme === "dark" ? "gray" : "",
+          }}
         >
           Reset Filters
         </button>
@@ -171,16 +174,14 @@ const SearchBox = ({ places, filteredPlaces, setFilteredPlaces }) => {
         <h3>{filteredPlaces.length} results</h3>
       </form>
       <label htmlFor="theme">
-        Theme
+        Theme:
         <select
           value={theme}
           onChange={(e) => setTheme(e.target.value)}
           onBlur={(e) => setTheme(e.target.value)}
         >
-          <option value="aqua">Aqua</option>
-          <option value="chartreuse">Chartreuse</option>
-          <option value="peru">Peru</option>
-          <option value="mediumorchid">Medium Orchid</option>
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
         </select>
       </label>
     </div>
