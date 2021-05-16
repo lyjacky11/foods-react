@@ -1,6 +1,7 @@
 import { Component } from "react";
 import { Link, withRouter } from "react-router-dom";
 import Place from "./Place";
+import ErrorBoundary from "./ErrorBoundary";
 import logos from "./logos/*.png";
 
 const MAPS_API = process.env.REACT_APP_MAPS_API;
@@ -20,7 +21,7 @@ class PlaceDetails extends Component {
     const id = this.props.match.params.id;
     const place = getPlaceById(id);
     if (place) {
-      // document.title = `${place.name} | Food Places`;
+      document.title = `${place.name} | Food Places`;
       const locations = getOtherLocations(place);
       this.setState({
         loading: false,
@@ -114,4 +115,12 @@ class PlaceDetails extends Component {
   }
 }
 
-export default withRouter(PlaceDetails);
+const PlaceDetailsRouter = withRouter(PlaceDetails);
+
+export default function PlaceDetailsEB(props) {
+  return (
+    <ErrorBoundary>
+      <PlaceDetailsRouter {...props} />
+    </ErrorBoundary>
+  );
+}

@@ -18,6 +18,7 @@ const App = () => {
 
   useEffect(() => {
     fetchPlaces();
+    document.title = "Food Places";
   }, []);
 
   function fetchPlaces() {
