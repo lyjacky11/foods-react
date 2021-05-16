@@ -4,11 +4,12 @@ import {
   BrowserRouter as Router,
   Route,
   Switch,
+  Link,
   Redirect,
 } from "react-router-dom";
 import SearchBox from "./SearchBox";
 import Results from "./Results";
-import Details from "./Details";
+import PlaceDetails from "./PlaceDetails";
 import placesJson from "./places.json";
 
 const App = () => {
@@ -24,13 +25,21 @@ const App = () => {
     setFilteredPlaces(placesJson.places);
   }
 
+  function getPlaceById(id) {
+    let data = placesJson.places;
+    return data.find((place) => place.id === id);
+  }
+
   return (
     <div className="app">
       <Router>
         <div className="header">
           <h2 className="title">Food Places</h2>
           <h3 className="subtitle">By: Jacky Ly</h3>
-          <h4 className="links">
+          <h4>
+            <Link to="/">Homepage</Link>
+          </h4>
+          <h5 className="links">
             <a href="https://github.com/lyjacky11" target="_blank">
               GitHub
             </a>{" "}
@@ -38,7 +47,7 @@ const App = () => {
             <a href="https://github.com/lyjacky11/foods-react" target="_blank">
               Project Repo
             </a>
-          </h4>
+          </h5>
         </div>
         <Switch>
           <Route exact path="/">
@@ -50,7 +59,7 @@ const App = () => {
             <Results filteredPlaces={filteredPlaces} />
           </Route>
           <Route exact path="/place/:id">
-            <Details />
+            <PlaceDetails getPlaceById={getPlaceById} />
           </Route>
           <Route>
             <Redirect to="/" />

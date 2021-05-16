@@ -62,22 +62,38 @@ select {
   transition: transform 250ms ease-in-out;
 }
 
-.place-details:hover {
+.place-info:hover {
   cursor: pointer;
 }
 
+.place-details {
+  background-color: white;
+  width: 75%;
+  margin: 5px auto;
+  padding: 10px;
+}
+
+.place-details-logo > img {
+  height: 125px;
+}
+
 .embed-map > iframe {
-  width: 300px;
-  height: 200px;
+  width: 500px;
+  height: 350px;
   border: 0;
 }
 
 @media screen and (max-width: 600px) {
   .header,
   .search-box {
-    width: 75%;
+    width: 90%;
   }
-  .place-container {
-    width: 75%;
+  .place-container,
+  .place-details {
+    width: 90%;
+  }
+  .embed-map > iframe {
+    width: 300px;
+    height: 200px;
   }
 }
