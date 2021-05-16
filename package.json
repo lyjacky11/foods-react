@@ -9,7 +9,7 @@
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "dev": "parcel src/index.html",
     "dev:nocache": "parcel src/index.html --no-cache",
-    "build": "parcel build --public-url ./ src/index.html && cp _redirects dist"
+    "build": "parcel build src/index.html && cp _redirects dist"
   },
   "author": "Jacky Ly",
   "license": "Apache-2.0",
