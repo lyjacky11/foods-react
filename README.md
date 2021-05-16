@@ -2,6 +2,10 @@
 
 List of various food places in Toronto and surrounding areas. Code written in React JS.
 
+[Live Demo](https://foods.jackyly.ca)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fc08add6-75ef-4474-af3a-db99ab887ac0/deploy-status)](https://app.netlify.com/sites/toronto-foods/deploys)
+
 ## Scripts
 
 ### Development
