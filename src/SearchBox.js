@@ -11,6 +11,7 @@ const SearchBox = ({ places, filteredPlaces, setFilteredPlaces }) => {
   const [categoryValue, setCategoryValue] = useState("");
   const [prevCategoryValue, setPrevCategoryValue] = useState("");
   const [subCategoryValue, setSubCategoryValue] = useState("");
+  const [uniquePlaces, setUniquePlaces] = useState("false");
 
   // Custom hooks
   const [categories] = useCategories(places);
@@ -23,8 +24,9 @@ const SearchBox = ({ places, filteredPlaces, setFilteredPlaces }) => {
     findByLocation();
     findByCategory();
     findBySubCategory();
+    getUniquePlaces();
     setFilteredPlaces(placesList);
-  }, [nameValue, locationValue, categoryValue, subCategoryValue]);
+  }, [nameValue, locationValue, categoryValue, subCategoryValue, uniquePlaces]);
 
   // Find places by name
   function findByName() {
@@ -87,12 +89,28 @@ const SearchBox = ({ places, filteredPlaces, setFilteredPlaces }) => {
     }
   }
 
+  // Get unique places
+  function getUniquePlaces() {
+    let data = [];
+    if (uniquePlaces === "true") {
+      placesList.map((place) => {
+        var found = data.find((x) => x.name === place.name);
+        if (!found) {
+          data.push(place);
+        }
+      });
+      console.log(data);
+      placesList = data;
+    }
+  }
+
   // Reset search filters
   function resetFilters() {
     setNameValue("");
     setLocationValue("");
     setCategoryValue("");
     setSubCategoryValue("");
+    setUniquePlaces("false");
     setTheme("light");
   }
 
@@ -160,6 +178,24 @@ const SearchBox = ({ places, filteredPlaces, setFilteredPlaces }) => {
             ))}
           </select>
         </label>
+        <br />
+        View:
+        <input
+          type="radio"
+          value="true"
+          onChange={(e) => setUniquePlaces(e.target.value)}
+          onBlur={(e) => setUniquePlaces(e.target.value)}
+          checked={uniquePlaces === "true"}
+        />
+        <label htmlFor="unique">Unique</label>
+        <input
+          type="radio"
+          value="false"
+          onChange={(e) => setUniquePlaces(e.target.value)}
+          onBlur={(e) => setUniquePlaces(e.target.value)}
+          checked={uniquePlaces === "false"}
+        />
+        <label htmlFor="all">All Places</label>
         <br />
         <label htmlFor="theme">
           Theme:
