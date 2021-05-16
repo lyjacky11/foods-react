@@ -18,15 +18,15 @@ const Place = ({
         <img src={`${logos[logo]}`} alt={name}></img>
       </div>
       <div className="place-info">
-        <h2>{name}</h2>
-        <h3>
+        <h3>{name}</h3>
+        <h4>
           {sub_category != "null" ? `${sub_category} ` : ""}
           {category}
-        </h3>
-        <h4>{address}</h4>
-        <h4>
-          {city}, {province} {postal}
         </h4>
+        <h5>{address}</h5>
+        <h5>
+          {city}, {province} {postal}
+        </h5>
       </div>
     </Link>
   );

@@ -16,10 +16,10 @@ const App = () => {
   const [filteredPlaces, setFilteredPlaces] = useState([]);
 
   useEffect(() => {
-    getPlaces();
+    fetchPlaces();
   }, []);
 
-  function getPlaces() {
+  function fetchPlaces() {
     setPlaces(placesJson.places);
     setFilteredPlaces(placesJson.places);
   }
@@ -27,6 +27,11 @@ const App = () => {
   function getPlaceById(id) {
     let data = placesJson.places;
     return data.find((place) => place.id === id);
+  }
+
+  function getOtherLocations(place) {
+    let data = placesJson.places;
+    return data.filter((x) => x.name === place.name && x.id !== place.id);
   }
 
   return (
@@ -54,9 +59,17 @@ const App = () => {
             />
             <Results filteredPlaces={filteredPlaces} />
           </Route>
-          <Route exact path="/place/:id">
-            <PlaceDetails getPlaceById={getPlaceById} />
-          </Route>
+          <Route
+            exact
+            path="/place/:id"
+            render={(props) => (
+              <PlaceDetails
+                key={props.match.params.id}
+                getPlaceById={getPlaceById}
+                getOtherLocations={getOtherLocations}
+              />
+            )}
+          ></Route>
           <Route>
             <Redirect to="/" />
           </Route>

@@ -1,5 +1,6 @@
 import { Component } from "react";
 import { Link, withRouter } from "react-router-dom";
+import Place from "./Place";
 import logos from "./logos/*.png";
 
 const MAPS_API = process.env.REACT_APP_MAPS_API;
@@ -10,18 +11,21 @@ class PlaceDetails extends Component {
     this.state = {
       loading: true,
       place: [],
+      locations: [],
     };
   }
 
   componentDidMount() {
-    const { getPlaceById } = this.props;
+    const { getPlaceById, getOtherLocations } = this.props;
     const id = this.props.match.params.id;
     const place = getPlaceById(id);
     if (place) {
       document.title = `${place.name} | Food Places`;
+      const locations = getOtherLocations(place);
       this.setState({
         loading: false,
         place: place,
+        locations: locations,
       });
     } else {
       this.setState({
@@ -36,10 +40,17 @@ class PlaceDetails extends Component {
       return <h3>Loading place details...</h3>;
     }
     if (!this.state.place) {
-      return <h3>Place not found!</h3>;
+      return (
+        <div>
+          <h4>
+            <Link to="/">↩ Back to Home</Link>
+          </h4>
+          <h3>Place not found!</h3>
+        </div>
+      );
     }
 
-    const { place } = this.state;
+    const { place, locations } = this.state;
     const {
       id,
       name,
@@ -55,7 +66,7 @@ class PlaceDetails extends Component {
     return (
       <div className="place-details">
         <h4>
-          <Link to="/">↩ Previous Page</Link>
+          <Link to="/">↩ Back to Home</Link>
         </h4>
         <div className="place-details-logo">
           <img src={`${logos[logo]}`} alt={name}></img>
@@ -75,6 +86,29 @@ class PlaceDetails extends Component {
             src={`https://www.google.com/maps/embed/v1/place?key=${MAPS_API}&q=${name}+${address}+${city}+${province}+${postal}`}
           ></iframe>
         </div>
+        {!locations.length ? (
+          <div />
+        ) : (
+          <>
+            <h3>Other Locations</h3>
+            <div className="other-locations">
+              {locations.map((place) => (
+                <Place
+                  key={place.id}
+                  id={place.id}
+                  name={place.name}
+                  category={place.category}
+                  sub_category={place.sub_category}
+                  address={place.address}
+                  city={place.city}
+                  province={place.province}
+                  postal={place.postal}
+                  logo={place.logo}
+                />
+              ))}
+            </div>
+          </>
+        )}
       </div>
     );
   }

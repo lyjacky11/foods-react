@@ -37,7 +37,8 @@ select {
   cursor: pointer;
 }
 
-.results {
+.results,
+.other-locations {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -68,7 +69,7 @@ select {
 
 .place-details {
   background-color: white;
-  width: 75%;
+  width: 60%;
   margin: 5px auto;
   padding: 10px;
 }
@@ -99,9 +100,10 @@ select {
     height: 75px;
   }
 
-  .place-info > h2,
-  h3,
-  h4 {
+  .place-info > h3,
+  h4,
+  h5,
+  h6 {
     font-size: 0.9rem;
   }
 
