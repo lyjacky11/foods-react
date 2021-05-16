@@ -10,6 +10,7 @@ import SearchBox from "./SearchBox";
 import Results from "./Results";
 import PlaceDetails from "./PlaceDetails";
 import placesJson from "./places.json";
+import "./style.css";
 
 const App = () => {
   const [places, setPlaces] = useState([]);
