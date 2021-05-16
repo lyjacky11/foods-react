@@ -1,8 +1,11 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import useCategories from "./useCategories";
 import useSubCategories from "./useSubCategories";
+import ThemeContext from "./ThemeContext";
 
 const SearchBox = ({ places, filteredPlaces, setFilteredPlaces }) => {
+  const [theme, setTheme] = useContext(ThemeContext);
+
   const [nameValue, setNameValue] = useState("");
   const [locationValue, setLocationValue] = useState("");
   const [categoryValue, setCategoryValue] = useState("");
@@ -157,12 +160,29 @@ const SearchBox = ({ places, filteredPlaces, setFilteredPlaces }) => {
           </select>
         </label>
         <br />
-        <button className="button" onClick={resetFilters}>
+        <button
+          className="button"
+          onClick={resetFilters}
+          style={{ backgroundColor: theme }}
+        >
           Reset Filters
         </button>
         <br />
         <h3>{filteredPlaces.length} results</h3>
       </form>
+      <label htmlFor="theme">
+        Theme
+        <select
+          value={theme}
+          onChange={(e) => setTheme(e.target.value)}
+          onBlur={(e) => setTheme(e.target.value)}
+        >
+          <option value="aqua">Aqua</option>
+          <option value="chartreuse">Chartreuse</option>
+          <option value="peru">Peru</option>
+          <option value="mediumorchid">Medium Orchid</option>
+        </select>
+      </label>
     </div>
   );
 };

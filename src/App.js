@@ -9,10 +9,12 @@ import {
 import SearchBox from "./SearchBox";
 import Results from "./Results";
 import PlaceDetails from "./PlaceDetails";
+import ThemeContext from "./ThemeContext";
 import placesJson from "./places.json";
 import "./style.css";
 
 const App = () => {
+  const theme = useState("aqua");
   const [places, setPlaces] = useState([]);
   const [filteredPlaces, setFilteredPlaces] = useState([]);
 
@@ -37,47 +39,52 @@ const App = () => {
   }
 
   return (
-    <div className="app">
-      <Router>
-        <div className="header">
-          <h2 className="title">Food Places</h2>
-          <h3 className="subtitle">By: Jacky Ly</h3>
-          <h5 className="links">
-            <a href="https://github.com/lyjacky11" target="_blank">
-              GitHub
-            </a>{" "}
-            |{" "}
-            <a href="https://github.com/lyjacky11/foods-react" target="_blank">
-              Project Repo
-            </a>
-          </h5>
-        </div>
-        <Switch>
-          <Route exact path="/">
-            <SearchBox
-              places={places}
-              filteredPlaces={filteredPlaces}
-              setFilteredPlaces={setFilteredPlaces}
-            />
-            <Results filteredPlaces={filteredPlaces} />
-          </Route>
-          <Route
-            exact
-            path="/place/:id"
-            render={(props) => (
-              <PlaceDetails
-                key={props.match.params.id}
-                getPlaceById={getPlaceById}
-                getOtherLocations={getOtherLocations}
+    <ThemeContext.Provider value={theme}>
+      <div className="app">
+        <Router>
+          <div className="header">
+            <h2 className="title">Food Places</h2>
+            <h3 className="subtitle">By: Jacky Ly</h3>
+            <h5 className="links">
+              <a href="https://github.com/lyjacky11" target="_blank">
+                GitHub
+              </a>{" "}
+              |{" "}
+              <a
+                href="https://github.com/lyjacky11/foods-react"
+                target="_blank"
+              >
+                Project Repo
+              </a>
+            </h5>
+          </div>
+          <Switch>
+            <Route exact path="/">
+              <SearchBox
+                places={places}
+                filteredPlaces={filteredPlaces}
+                setFilteredPlaces={setFilteredPlaces}
               />
-            )}
-          ></Route>
-          <Route>
-            <Redirect to="/" />
-          </Route>
-        </Switch>
-      </Router>
-    </div>
+              <Results filteredPlaces={filteredPlaces} />
+            </Route>
+            <Route
+              exact
+              path="/place/:id"
+              render={(props) => (
+                <PlaceDetails
+                  key={props.match.params.id}
+                  getPlaceById={getPlaceById}
+                  getOtherLocations={getOtherLocations}
+                />
+              )}
+            ></Route>
+            <Route>
+              <Redirect to="/" />
+            </Route>
+          </Switch>
+        </Router>
+      </div>
+    </ThemeContext.Provider>
   );
 };
 
