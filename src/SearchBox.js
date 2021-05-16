@@ -93,6 +93,7 @@ const SearchBox = ({ places, filteredPlaces, setFilteredPlaces }) => {
     setLocationValue("");
     setCategoryValue("");
     setSubCategoryValue("");
+    setTheme("light");
   }
 
   return (
@@ -160,6 +161,18 @@ const SearchBox = ({ places, filteredPlaces, setFilteredPlaces }) => {
           </select>
         </label>
         <br />
+        <label htmlFor="theme">
+          Theme:
+          <select
+            value={theme}
+            onChange={(e) => setTheme(e.target.value)}
+            onBlur={(e) => setTheme(e.target.value)}
+            style={{ width: "initial" }}
+          >
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+          </select>
+        </label>
         <button
           className="button"
           onClick={resetFilters}
@@ -173,17 +186,6 @@ const SearchBox = ({ places, filteredPlaces, setFilteredPlaces }) => {
         <br />
         <h3>{filteredPlaces.length} results</h3>
       </form>
-      <label htmlFor="theme">
-        Theme:
-        <select
-          value={theme}
-          onChange={(e) => setTheme(e.target.value)}
-          onBlur={(e) => setTheme(e.target.value)}
-        >
-          <option value="light">Light</option>
-          <option value="dark">Dark</option>
-        </select>
-      </label>
     </div>
   );
 };
