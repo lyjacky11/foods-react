@@ -3,8 +3,8 @@
         {
             "id": "1",
             "name": "168 Sushi Buffet",
-            "category": "Sushi",
-            "sub_category": "Japanese",
+            "category": "Restaurant",
+            "sub_category": "Sushi",
             "address": "103-1520 Steeles Ave W",
             "city": "Concord",
             "province": "ON",
@@ -14,8 +14,8 @@
         {
             "id": "2",
             "name": "168 Sushi Buffet",
-            "category": "Sushi",
-            "sub_category": "Japanese",
+            "category": "Restaurant",
+            "sub_category": "Sushi",
             "address": "2366 Dundas St W",
             "city": "Mississauga",
             "province": "ON",
@@ -24,6 +24,39 @@
         },
         {
             "id": "3",
+            "name": "Arisu",
+            "category": "Barbecue",
+            "sub_category": "Korean",
+            "address": "584 Bloor St W",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M6G 1K4",
+            "logo": "arisu"
+        },
+        {
+            "id": "4",
+            "name": "August 8",
+            "category": "Restaurant",
+            "sub_category": "Asian Fusion",
+            "address": "331 Spadina Ave",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M5T 2E9",
+            "logo": "august-8"
+        },
+        {
+            "id": "5",
+            "name": "August 8",
+            "category": "Restaurant",
+            "sub_category": "Asian Fusion",
+            "address": "513-25 Peel Centre Dr",
+            "city": "Brampton",
+            "province": "ON",
+            "postal": "L6T 3R5",
+            "logo": "august-8"
+        },
+        {
+            "id": "6",
             "name": "Bang Bang",
             "category": "Dessert",
             "sub_category": "Ice Cream",
@@ -34,7 +67,7 @@
             "logo": "bang-bang"
         },
         {
-            "id": "4",
+            "id": "7",
             "name": "Banh Mi Boys",
             "category": "Sandwich",
             "sub_category": "Vietnamese",
@@ -45,7 +78,7 @@
             "logo": "banh-mi-boys"
         },
         {
-            "id": "5",
+            "id": "8",
             "name": "Banh Mi Boys",
             "category": "Sandwich",
             "sub_category": "Vietnamese",
@@ -56,7 +89,7 @@
             "logo": "banh-mi-boys"
         },
         {
-            "id": "6",
+            "id": "9",
             "name": "Banh Mi Boys",
             "category": "Sandwich",
             "sub_category": "Vietnamese",
@@ -67,7 +100,7 @@
             "logo": "banh-mi-boys"
         },
         {
-            "id": "7",
+            "id": "10",
             "name": "BeaverTails",
             "category": "Dessert",
             "sub_category": "Pastry",
@@ -78,7 +111,7 @@
             "logo": "beavertails"
         },
         {
-            "id": "8",
+            "id": "11",
             "name": "BeaverTails",
             "category": "Dessert",
             "sub_category": "Pastry",
@@ -89,7 +122,7 @@
             "logo": "beavertails"
         },
         {
-            "id": "9",
+            "id": "12",
             "name": "Boba Boy",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -100,7 +133,7 @@
             "logo": "boba-boy"
         },
         {
-            "id": "10",
+            "id": "13",
             "name": "Boba Boy",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -111,7 +144,7 @@
             "logo": "boba-boy"
         },
         {
-            "id": "11",
+            "id": "14",
             "name": "Boba Boy",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -122,7 +155,7 @@
             "logo": "boba-boy"
         },
         {
-            "id": "12",
+            "id": "15",
             "name": "Blaze Pizza",
             "category": "Fast Food",
             "sub_category": "Pizza",
@@ -133,7 +166,7 @@
             "logo": "blaze-pizza"
         },
         {
-            "id": "13",
+            "id": "16",
             "name": "Blaze Pizza",
             "category": "Fast Food",
             "sub_category": "Pizza",
@@ -144,7 +177,7 @@
             "logo": "blaze-pizza"
         },
         {
-            "id": "14",
+            "id": "17",
             "name": "Chatime",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -155,7 +188,7 @@
             "logo": "chatime"
         },
         {
-            "id": "15",
+            "id": "18",
             "name": "Chatime",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -166,7 +199,7 @@
             "logo": "chatime"
         },
         {
-            "id": "16",
+            "id": "19",
             "name": "Chatime",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -177,10 +210,10 @@
             "logo": "chatime"
         },
         {
-            "id": "17",
+            "id": "20",
             "name": "Chicken in the Kitchen",
-            "category": "Fried Chicken",
-            "sub_category": "Korean",
+            "category": "Restaurant",
+            "sub_category": "Fried Chicken",
             "address": "5600 Yonge St",
             "city": "North York",
             "province": "ON",
@@ -188,7 +221,7 @@
             "logo": "chicken-kitchen"
         },
         {
-            "id": "18",
+            "id": "21",
             "name": "Chop Chop",
             "category": "Restaurant",
             "sub_category": "Chinese",
@@ -199,7 +232,7 @@
             "logo": "chop-chop"
         },
         {
-            "id": "19",
+            "id": "22",
             "name": "Chop Steakhouse Bar",
             "category": "Restaurant",
             "sub_category": "Steak House",
@@ -210,7 +243,7 @@
             "logo": "chop-steakhouse"
         },
         {
-            "id": "20",
+            "id": "23",
             "name": "Chop Steakhouse Bar",
             "category": "Restaurant",
             "sub_category": "Steak House",
@@ -221,7 +254,7 @@
             "logo": "chop-steakhouse"
         },
         {
-            "id": "21",
+            "id": "24",
             "name": "Chop Steakhouse Bar",
             "category": "Restaurant",
             "sub_category": "Steak House",
@@ -232,7 +265,29 @@
             "logo": "chop-steakhouse"
         },
         {
-            "id": "22",
+            "id": "25",
+            "name": "Chungchun Rice Dog",
+            "category": "Fast Food",
+            "sub_category": "Hotdog",
+            "address": "615 Bloor St W",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M6G 1K8",
+            "logo": "chungchun"
+        },
+        {
+            "id": "26",
+            "name": "Chungchun Rice Dog",
+            "category": "Fast Food",
+            "sub_category": "Hotdog",
+            "address": "582 Yonge St",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M4Y 1Z3",
+            "logo": "chungchun"
+        },
+        {
+            "id": "27",
             "name": "CoCo Fresh Tea",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -243,7 +298,7 @@
             "logo": "coco"
         },
         {
-            "id": "23",
+            "id": "28",
             "name": "CoCo Fresh Tea",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -254,7 +309,7 @@
             "logo": "coco"
         },
         {
-            "id": "24",
+            "id": "29",
             "name": "CoCo Fresh Tea",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -265,7 +320,7 @@
             "logo": "coco"
         },
         {
-            "id": "25",
+            "id": "30",
             "name": "Copacabana",
             "category": "Restaurant",
             "sub_category": "Steak House",
@@ -276,7 +331,7 @@
             "logo": "copacabana"
         },
         {
-            "id": "26",
+            "id": "31",
             "name": "Copacabana",
             "category": "Restaurant",
             "sub_category": "Steak House",
@@ -287,7 +342,7 @@
             "logo": "copacabana"
         },
         {
-            "id": "27",
+            "id": "32",
             "name": "Cuppa Tea",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -298,7 +353,7 @@
             "logo": "cuppa-tea"
         },
         {
-            "id": "28",
+            "id": "33",
             "name": "Cuppa Tea",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -309,7 +364,7 @@
             "logo": "cuppa-tea"
         },
         {
-            "id": "29",
+            "id": "34",
             "name": "Cuppa Tea",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -320,7 +375,7 @@
             "logo": "cuppa-tea"
         },
         {
-            "id": "30",
+            "id": "35",
             "name": "Daldongnae",
             "category": "Barbecue",
             "sub_category": "Korean",
@@ -331,7 +386,7 @@
             "logo": "daldongnae"
         },
         {
-            "id": "31",
+            "id": "36",
             "name": "Daldongnae",
             "category": "Barbecue",
             "sub_category": "Korean",
@@ -342,7 +397,7 @@
             "logo": "daldongnae"
         },
         {
-            "id": "32",
+            "id": "37",
             "name": "Demetres",
             "category": "Dessert",
             "sub_category": "Ice Cream",
@@ -353,7 +408,7 @@
             "logo": "demetres"
         },
         {
-            "id": "33",
+            "id": "38",
             "name": "Demetres",
             "category": "Dessert",
             "sub_category": "Ice Cream",
@@ -364,7 +419,40 @@
             "logo": "demetres"
         },
         {
-            "id": "34",
+            "id": "39",
+            "name": "Denny's",
+            "category": "Restaurant",
+            "sub_category": "Breakfast",
+            "address": "25 Woodstream Blvd",
+            "city": "Woodbridge",
+            "province": "ON",
+            "postal": "L4L 7Y8",
+            "logo": "dennys"
+        },
+        {
+            "id": "40",
+            "name": "Denny's",
+            "category": "Restaurant",
+            "sub_category": "Breakfast",
+            "address": "2610 Rutherford Rd",
+            "city": "Vaughan",
+            "province": "ON",
+            "postal": "L4K 0H1",
+            "logo": "dennys"
+        },
+        {
+            "id": "41",
+            "name": "Denny's",
+            "category": "Restaurant",
+            "sub_category": "Breakfast",
+            "address": "40 Courtneypark Dr E",
+            "city": "Mississauga",
+            "province": "ON",
+            "postal": "L5T 2Y3",
+            "logo": "dennys"
+        },
+        {
+            "id": "42",
             "name": "Eggspectation",
             "category": "Restaurant",
             "sub_category": "Breakfast",
@@ -375,7 +463,7 @@
             "logo": "eggspectation"
         },
         {
-            "id": "35",
+            "id": "43",
             "name": "Eggspectation",
             "category": "Restaurant",
             "sub_category": "Breakfast",
@@ -386,7 +474,40 @@
             "logo": "eggspectation"
         },
         {
-            "id": "36",
+            "id": "44",
+            "name": "Firehouse Subs",
+            "category": "Sandwich",
+            "sub_category": "Submarine",
+            "address": "103-1970 St Clair Ave W",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M6N 0A3",
+            "logo": "firehouse-subs"
+        },
+        {
+            "id": "45",
+            "name": "Firehouse Subs",
+            "category": "Sandwich",
+            "sub_category": "Submarine",
+            "address": "B-3300 Dufferin St",
+            "city": "North York",
+            "province": "ON",
+            "postal": "M6A 2T5",
+            "logo": "firehouse-subs"
+        },
+        {
+            "id": "46",
+            "name": "Firehouse Subs",
+            "category": "Sandwich",
+            "sub_category": "Submarine",
+            "address": "C2-2901 Major Mackenzie Dr W",
+            "city": "Vaughan",
+            "province": "ON",
+            "postal": "L6A 3N9",
+            "logo": "firehouse-subs"
+        },
+        {
+            "id": "47",
             "name": "Gong Cha",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -397,7 +518,7 @@
             "logo": "gong-cha"
         },
         {
-            "id": "37",
+            "id": "48",
             "name": "Gong Cha",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -408,7 +529,7 @@
             "logo": "gong-cha"
         },
         {
-            "id": "38",
+            "id": "49",
             "name": "Gong Cha",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -419,7 +540,7 @@
             "logo": "gong-cha"
         },
         {
-            "id": "39",
+            "id": "50",
             "name": "Gyubee",
             "category": "Barbecue",
             "sub_category": "Japanese",
@@ -430,7 +551,7 @@
             "logo": "gyubee"
         },
         {
-            "id": "40",
+            "id": "51",
             "name": "Gyubee",
             "category": "Barbecue",
             "sub_category": "Japanese",
@@ -441,7 +562,7 @@
             "logo": "gyubee"
         },
         {
-            "id": "41",
+            "id": "52",
             "name": "Gyubee",
             "category": "Barbecue",
             "sub_category": "Japanese",
@@ -452,7 +573,7 @@
             "logo": "gyubee"
         },
         {
-            "id": "42",
+            "id": "53",
             "name": "HK Sweets",
             "category": "Dessert",
             "sub_category": "Hong Kong",
@@ -463,10 +584,10 @@
             "logo": "hk-sweets"
         },
         {
-            "id": "43",
+            "id": "54",
             "name": "Home of Hot-Taste",
-            "category": "Fried Chicken",
-            "sub_category": "Korean",
+            "category": "Restaurant",
+            "sub_category": "Fried Chicken",
             "address": "3B-5 Glen Cameron Rd",
             "city": "Thornhill",
             "province": "ON",
@@ -474,10 +595,10 @@
             "logo": "home-hot-taste"
         },
         {
-            "id": "44",
+            "id": "55",
             "name": "Hot Star",
-            "category": "Fried Chicken",
-            "sub_category": "Taiwanese",
+            "category": "Restaurant",
+            "sub_category": "Fried Chicken",
             "address": "5525 Yonge St",
             "city": "North York",
             "province": "ON",
@@ -485,10 +606,10 @@
             "logo": "hot-star"
         },
         {
-            "id": "45",
+            "id": "56",
             "name": "Hot Star",
-            "category": "Fried Chicken",
-            "sub_category": "Taiwanese",
+            "category": "Restaurant",
+            "sub_category": "Fried Chicken",
             "address": "F1-4300 Steeles Ave E",
             "city": "Markham",
             "province": "ON",
@@ -496,7 +617,7 @@
             "logo": "hot-star"
         },
         {
-            "id": "46",
+            "id": "57",
             "name": "Katsuya",
             "category": "Restaurant",
             "sub_category": "Japanese",
@@ -507,7 +628,7 @@
             "logo": "katsuya"
         },
         {
-            "id": "47",
+            "id": "58",
             "name": "Katsuya",
             "category": "Restaurant",
             "sub_category": "Japanese",
@@ -518,7 +639,7 @@
             "logo": "katsuya"
         },
         {
-            "id": "48",
+            "id": "59",
             "name": "Katsuya",
             "category": "Restaurant",
             "sub_category": "Japanese",
@@ -529,7 +650,7 @@
             "logo": "katsuya"
         },
         {
-            "id": "49",
+            "id": "60",
             "name": "Kekou",
             "category": "Dessert",
             "sub_category": "Ice Cream",
@@ -540,7 +661,62 @@
             "logo": "kekou"
         },
         {
-            "id": "50",
+            "id": "61",
+            "name": "Kenzo Ramen",
+            "category": "Restaurant",
+            "sub_category": "Ramen",
+            "address": "4860 Yonge St",
+            "city": "North York",
+            "province": "ON",
+            "postal": "M2N 5N2",
+            "logo": "kenzo"
+        },
+        {
+            "id": "62",
+            "name": "Kenzo Ramen",
+            "category": "Restaurant",
+            "sub_category": "Ramen",
+            "address": "3337 Bloor St W",
+            "city": "Etobicoke",
+            "province": "ON",
+            "postal": "M8X 1E9",
+            "logo": "kenzo"
+        },
+        {
+            "id": "63",
+            "name": "Kinton Ramen",
+            "category": "Restaurant",
+            "sub_category": "Ramen",
+            "address": "5165 Yonge St",
+            "city": "North York",
+            "province": "ON",
+            "postal": "M2N 5P5",
+            "logo": "kinton"
+        },
+        {
+            "id": "64",
+            "name": "Kinton Ramen",
+            "category": "Restaurant",
+            "sub_category": "Ramen",
+            "address": "108-90 Eglinton Ave E",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M4P 2Y3",
+            "logo": "kinton"
+        },
+        {
+            "id": "65",
+            "name": "Kinton Ramen",
+            "category": "Restaurant",
+            "sub_category": "Ramen",
+            "address": "396 Church St",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M5B 2A2",
+            "logo": "kinton"
+        },
+        {
+            "id": "66",
             "name": "Kobi Korean BBQ",
             "category": "Barbecue",
             "sub_category": "Korean",
@@ -551,7 +727,7 @@
             "logo": "kobi-kbbq"
         },
         {
-            "id": "51",
+            "id": "67",
             "name": "Kobi Korean BBQ",
             "category": "Barbecue",
             "sub_category": "Korean",
@@ -562,7 +738,7 @@
             "logo": "kobi-kbbq"
         },
         {
-            "id": "52",
+            "id": "68",
             "name": "Korean Grill House",
             "category": "Barbecue",
             "sub_category": "Korean",
@@ -573,7 +749,7 @@
             "logo": "korean-grill-house"
         },
         {
-            "id": "53",
+            "id": "69",
             "name": "Korean Grill House",
             "category": "Barbecue",
             "sub_category": "Korean",
@@ -584,7 +760,7 @@
             "logo": "korean-grill-house"
         },
         {
-            "id": "54",
+            "id": "70",
             "name": "Krispy Kreme",
             "category": "Dessert",
             "sub_category": "Donut",
@@ -595,7 +771,7 @@
             "logo": "krispy-kreme"
         },
         {
-            "id": "55",
+            "id": "71",
             "name": "Krispy Kreme",
             "category": "Dessert",
             "sub_category": "Donut",
@@ -606,7 +782,7 @@
             "logo": "krispy-kreme"
         },
         {
-            "id": "56",
+            "id": "72",
             "name": "Kung Fu Tea",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -617,7 +793,7 @@
             "logo": "kung-fu-tea"
         },
         {
-            "id": "57",
+            "id": "73",
             "name": "Kung Fu Tea",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -628,7 +804,7 @@
             "logo": "kung-fu-tea"
         },
         {
-            "id": "58",
+            "id": "74",
             "name": "Machi Machi",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -639,7 +815,7 @@
             "logo": "machi-machi"
         },
         {
-            "id": "59",
+            "id": "75",
             "name": "Machi Machi",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -650,7 +826,7 @@
             "logo": "machi-machi"
         },
         {
-            "id": "60",
+            "id": "76",
             "name": "Machi Machi",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -661,10 +837,10 @@
             "logo": "machi-machi"
         },
         {
-            "id": "61",
+            "id": "77",
             "name": "Mymy Chicken",
-            "category": "Fried Chicken",
-            "sub_category": "Korean",
+            "category": "Restaurant",
+            "sub_category": "Fried Chicken",
             "address": "9 Spring Garden Ave",
             "city": "North York",
             "province": "ON",
@@ -672,10 +848,10 @@
             "logo": "mymy-chicken"
         },
         {
-            "id": "62",
+            "id": "78",
             "name": "Mymy Chicken",
-            "category": "Fried Chicken",
-            "sub_category": "Korean",
+            "category": "Restaurant",
+            "sub_category": "Fried Chicken",
             "address": "7359 Yonge St",
             "city": "Thornhill",
             "province": "ON",
@@ -683,7 +859,7 @@
             "logo": "mymy-chicken"
         },
         {
-            "id": "63",
+            "id": "79",
             "name": "Noon Moment",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -694,7 +870,7 @@
             "logo": "noon-moment"
         },
         {
-            "id": "64",
+            "id": "80",
             "name": "Rolltation",
             "category": "Fast Food",
             "sub_category": "Sushi Burrito",
@@ -705,7 +881,7 @@
             "logo": "rolltation"
         },
         {
-            "id": "65",
+            "id": "81",
             "name": "Rolltation",
             "category": "Fast Food",
             "sub_category": "Sushi Burrito",
@@ -716,7 +892,7 @@
             "logo": "rolltation"
         },
         {
-            "id": "66",
+            "id": "82",
             "name": "Roselle Desserts",
             "category": "Dessert",
             "sub_category": "Pastry",
@@ -727,10 +903,32 @@
             "logo": "roselle-desserts"
         },
         {
-            "id": "67",
+            "id": "83",
+            "name": "Sansotei Ramen",
+            "category": "Restaurant",
+            "sub_category": "Ramen",
+            "address": "13 Byng Ave",
+            "city": "North York",
+            "province": "ON",
+            "postal": "M2N 5R7",
+            "logo": "sansotei"
+        },
+        {
+            "id": "84",
+            "name": "Sansotei Ramen",
+            "category": "Restaurant",
+            "sub_category": "Ramen",
+            "address": "12-9555 Yonge St",
+            "city": "Richmond Hill",
+            "province": "ON",
+            "postal": "L4C 9M5",
+            "logo": "sansotei"
+        },
+        {
+            "id": "85",
             "name": "Sushi-Ya Japan",
-            "category": "Sushi",
-            "sub_category": "Japanese",
+            "category": "Restaurant",
+            "sub_category": "Sushi",
             "address": "621 Dixon Rd",
             "city": "Etobicoke",
             "province": "ON",
@@ -738,7 +936,7 @@
             "logo": "sushi-ya"
         },
         {
-            "id": "68",
+            "id": "86",
             "name": "Sweet Jesus",
             "category": "Dessert",
             "sub_category": "Ice Cream",
@@ -749,7 +947,7 @@
             "logo": "sweet-jesus"
         },
         {
-            "id": "69",
+            "id": "87",
             "name": "Sweet Jesus",
             "category": "Dessert",
             "sub_category": "Ice Cream",
@@ -760,7 +958,7 @@
             "logo": "sweet-jesus"
         },
         {
-            "id": "70",
+            "id": "88",
             "name": "The Alley",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -771,7 +969,7 @@
             "logo": "the-alley"
         },
         {
-            "id": "71",
+            "id": "89",
             "name": "The Alley",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -782,7 +980,7 @@
             "logo": "the-alley"
         },
         {
-            "id": "72",
+            "id": "90",
             "name": "The Alley",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -793,7 +991,7 @@
             "logo": "the-alley"
         },
         {
-            "id": "73",
+            "id": "91",
             "name": "The Cheesecake Factory",
             "category": "Restaurant",
             "sub_category": "Cheesecake",
@@ -804,10 +1002,43 @@
             "logo": "the-cheesecake-factory"
         },
         {
-            "id": "74",
+            "id": "92",
+            "name": "The Fry",
+            "category": "Restaurant",
+            "sub_category": "Fried Chicken",
+            "address": "6012 Yonge St",
+            "city": "North York",
+            "province": "ON",
+            "postal": "M2M 3V9",
+            "logo": "the-fry"
+        },
+        {
+            "id": "93",
+            "name": "The Fry",
+            "category": "Restaurant",
+            "sub_category": "Fried Chicken",
+            "address": "524 Bloor St W",
+            "city": "Toronto",
+            "province": "ON",
+            "postal": "M5S 1Y3",
+            "logo": "the-fry"
+        },
+        {
+            "id": "94",
+            "name": "The Fry",
+            "category": "Restaurant",
+            "sub_category": "Fried Chicken",
+            "address": "6-1133 Dundas St E",
+            "city": "Mississauga",
+            "province": "ON",
+            "postal": "L4Y 1R6",
+            "logo": "the-fry"
+        },
+        {
+            "id": "95",
             "name": "Toro Toro",
-            "category": "Sushi",
-            "sub_category": "Japanese",
+            "category": "Restaurant",
+            "sub_category": "Sushi",
             "address": "40-3175 Rutherford Rd",
             "city": "Concord",
             "province": "ON",
@@ -815,7 +1046,29 @@
             "logo": "toro-toro"
         },
         {
-            "id": "75",
+            "id": "96",
+            "name": "Wakame Sushi",
+            "category": "Restaurant",
+            "sub_category": "Sushi",
+            "address": "31-2625 Weston Rd",
+            "city": "North York",
+            "province": "ON",
+            "postal": "M9N 3X2",
+            "logo": "wakame-sushi"
+        },
+        {
+            "id": "97",
+            "name": "Wakame Sushi",
+            "category": "Restaurant",
+            "sub_category": "Sushi",
+            "address": "638 Sheppard Ave W",
+            "city": "North York",
+            "province": "ON",
+            "postal": "M3H 2S1",
+            "logo": "wakame-sushi"
+        },
+        {
+            "id": "98",
             "name": "Yang Teashop",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -826,7 +1079,7 @@
             "logo": "yang-teashop"
         },
         {
-            "id": "76",
+            "id": "99",
             "name": "Yang Teashop",
             "category": "Drink",
             "sub_category": "Bubble Tea",
@@ -837,7 +1090,7 @@
             "logo": "yang-teashop"
         },
         {
-            "id": "77",
+            "id": "100",
             "name": "Yang Teashop",
             "category": "Drink",
             "sub_category": "Bubble Tea",
