@@ -90,8 +90,8 @@ select {
   }
 
   .place-container {
-    width: 40%;
-    padding: 10px;
+    width: 45%;
+    padding: 5px;
     margin: 5px;
   }
 
@@ -103,11 +103,11 @@ select {
   h4,
   h5,
   h6 {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
 
   .place-details {
-    width: 90%;
+    width: 100%;
   }
 
   .embed-map > iframe {
