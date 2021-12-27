@@ -1,17 +1,17 @@
 * {
   box-sizing: border-box;
-  color: #333;
+  color: white;
 }
 
 body {
   margin: 0;
-  background-color: #f8f8ff;
+  background-color: #333;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
 }
 
 a {
-  color: royalblue;
+  color: lightskyblue;
   text-decoration: none;
 }
 
@@ -22,13 +22,18 @@ select {
   width: 200px;
 }
 
+select,
+option {
+  color: black;
+}
+
 .header,
 .search-box {
   width: 50%;
   padding: 5px;
   margin: 5px auto;
   border-radius: 8%;
-  background-color: white;
+  background-color: rgb(45, 45, 45);
 }
 
 .button {
@@ -47,7 +52,7 @@ select {
 }
 
 .place-container {
-  background-color: white;
+  background-color: rgb(45, 45, 45);
   border-radius: 7%;
   padding: 15px;
   margin: 10px;

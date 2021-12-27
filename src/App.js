@@ -42,7 +42,7 @@ const App = () => {
       <div className="app">
         <Router>
           <div className="header">
-            <h2 className="title">Toronto Foods</h2>
+            <h2 className="title">Toronto Food Places</h2>
             <h4 className="links">
               By: Jacky Ly |{" "}
               <a href="https://github.com/lyjacky11" target="_blank">

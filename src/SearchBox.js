@@ -20,7 +20,7 @@ const SearchBox = ({ places, filteredPlaces, setFilteredPlaces }) => {
   // Fetch places by search parameters
   let placesList = places;
   useEffect(() => {
-    document.title = "Toronto Foods";
+    document.title = "Toronto Food Places";
     findByName();
     findByLocation();
     findByCategory();
@@ -197,7 +197,7 @@ const SearchBox = ({ places, filteredPlaces, setFilteredPlaces }) => {
         />
         <label htmlFor="all">All Places</label>
         <br />
-        <label htmlFor="theme">
+        {/* <label htmlFor="theme">
           Theme:
           <select
             value={theme}
@@ -208,13 +208,15 @@ const SearchBox = ({ places, filteredPlaces, setFilteredPlaces }) => {
             <option value="light">Light</option>
             <option value="dark">Dark</option>
           </select>
-        </label>
+        </label> */}
         <button
           className="button"
           onClick={resetFilters}
           style={{
-            color: theme === "dark" ? "white" : "",
-            backgroundColor: theme === "dark" ? "gray" : "",
+            // color: theme === "dark" ? "white" : "",
+            // backgroundColor: theme === "dark" ? "gray" : "",
+            color: "dark",
+            backgroundColor: "gray",
           }}
         >
           Reset Filters

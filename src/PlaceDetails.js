@@ -21,7 +21,7 @@ class PlaceDetails extends Component {
     const id = this.props.match.params.id;
     const place = getPlaceById(id);
     if (place) {
-      document.title = `${place.name} | Toronto Foods`;
+      document.title = `${place.name} | Toronto Food Places`;
       const locations = getOtherLocations(place);
       this.setState({
         loading: false,
